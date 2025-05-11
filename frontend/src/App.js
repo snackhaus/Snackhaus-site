@@ -271,11 +271,11 @@ function App() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.6 }}
               >
-                <a href="#get-started" className="btn-primary rounded-md px-6 py-3 flex items-center">
-                  Get a Cooler <ArrowRightIcon className="w-5 h-5 ml-2" />
+                <a href="#get-started" className="bg-primary text-secondary-dark px-6 py-3 rounded-md font-semibold hover:bg-primary-dark transition-all">
+                  Get Started
                 </a>
-                <a href="#how-it-works" className="btn-secondary rounded-md px-6 py-3 flex items-center">
-                  How It Works <ArrowSmallDownIcon className="w-5 h-5 ml-2" />
+                <a href="#how-it-works" className="text-white hover:text-primary transition-colors px-2 py-3 flex items-center">
+                  Learn More
                 </a>
               </motion.div>
             </div>
