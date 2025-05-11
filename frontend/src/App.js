@@ -230,7 +230,7 @@ function App() {
         </div>
         
         {/* Content overlay */}
-        <div className="relative h-full container-custom flex items-center">
+        <div className="relative h-full container-custom flex items-center pt-20 md:pt-0">
           <div className="md:grid md:grid-cols-2 w-full">
             <div className="md:col-span-1"></div> {/* Empty column for spacing */}
             <div className="md:col-span-1 text-white px-4 md:px-0">
