@@ -231,9 +231,9 @@ function App() {
         
         {/* Content overlay */}
         <div className="relative h-full container-custom flex items-center">
-          <div className="grid grid-cols-2 w-full">
-            <div className="col-span-1"></div> {/* Empty column for spacing */}
-            <div className="col-span-1 text-white">
+          <div className="md:grid md:grid-cols-2 w-full">
+            <div className="md:col-span-1"></div> {/* Empty column for spacing */}
+            <div className="md:col-span-1 text-white px-4 md:px-0">
               <motion.h1 
                 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6"
                 initial={{ opacity: 0, y: -20 }}
