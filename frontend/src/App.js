@@ -217,7 +217,7 @@ function App() {
       {/* Hero Section */}
       <section className="pt-32 pb-20 md:pt-40 md:pb-32 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-radial from-secondary-light to-secondary-dark opacity-40"></div>
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1550720766-13563d26a25f')] bg-cover bg-center bg-no-repeat opacity-30 mix-blend-overlay"></div>
+        <div className="absolute inset-0 bg-[url('https://iili.io/3vMYhBI.jpg')] bg-cover bg-center bg-no-repeat opacity-30 mix-blend-overlay"></div>
         
         <div className="container-custom relative z-10">
           <div className="grid md:grid-cols-2 gap-12 items-center">
