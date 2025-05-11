@@ -197,18 +197,21 @@ function App() {
   return (
     <div className="App bg-gradient-to-b from-secondary to-secondary-light text-white">
       {/* Navbar */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-secondary-dark/80 backdrop-blur-glass border-b border-primary/10">
-        <div className="container-custom py-4 flex justify-between items-center">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-transparent">
+        <div className="container-custom py-6 flex justify-between items-center">
           <SnackhausLogo />
-          <div className="flex gap-4">
-            <a href="#how-it-works" className="text-white/80 hover:text-primary transition-colors">
+          <div className="flex gap-6">
+            <a href="#how-it-works" className="text-white hover:text-primary transition-colors">
               How It Works
             </a>
-            <a href="#why-snackhaus" className="text-white/80 hover:text-primary transition-colors">
-              Why Snackhaus
+            <a href="#why-snackhaus" className="text-white hover:text-primary transition-colors">
+              Our Coolers
             </a>
-            <a href="#get-started" className="btn-primary text-sm py-2 px-4">
-              Get a Cooler
+            <a href="#" className="text-white hover:text-primary transition-colors">
+              FAQ
+            </a>
+            <a href="#get-started" className="text-white hover:text-primary transition-colors">
+              Contact
             </a>
           </div>
         </div>
