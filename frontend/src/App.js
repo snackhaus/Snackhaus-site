@@ -229,7 +229,7 @@ function App() {
               />
             </div>
             
-            <div className="order-2">
+            <div className="order-1 md:order-2">
               <motion.h1 
                 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-white"
                 initial={{ opacity: 0, y: -20 }}
