@@ -9,7 +9,13 @@ import { ArrowRightIcon, ArrowSmallDownIcon, CheckCircleIcon } from "@heroicons/
 // Logo import - we'll use it as a component
 const SnackhausLogo = () => (
   <div className="flex items-center">
-    <img src="https://iili.io/3vM1bql.png" alt="Snackhaus Logo" className="h-14" />
+    <div className="flex items-center">
+      <svg width="44" height="44" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-primary">
+        <path d="M60 20L20 45V95L60 120L100 95V45L60 20Z" fill="none" stroke="#F3CC6D" strokeWidth="5"/>
+        <path d="M45 55V85L60 95L75 85V55L60 45L45 55Z" fill="none" stroke="#F3CC6D" strokeWidth="5"/>
+      </svg>
+      <span className="text-primary font-display text-2xl md:text-3xl font-bold ml-2">snackhaus</span>
+    </div>
   </div>
 );
 
