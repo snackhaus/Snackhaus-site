@@ -221,7 +221,7 @@ function App() {
       <section className="py-24 md:py-20 relative overflow-hidden min-h-screen md:flex md:items-center">
         <div className="container-custom relative z-10">
           <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div className="relative order-1">
+            <div className="relative order-2 md:order-1">
               <img 
                 src="https://iili.io/3vMYhBI.jpg" 
                 alt="Snackhaus Smart Cooler" 
