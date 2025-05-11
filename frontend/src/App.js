@@ -203,23 +203,28 @@ function App() {
   return (
     <div className="App text-white">
       {/* Navbar */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-transparent">
-        <div className="container-custom py-6 flex justify-between items-center">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-transparent py-6">
+        <div className="container-custom flex justify-between items-center">
           <SnackhausLogo />
-          <div className="flex gap-6">
-            <a href="#how-it-works" className="text-white hover:text-primary transition-colors">
+          <div className="hidden md:flex gap-8">
+            <a href="#how-it-works" className="text-white hover:text-primary transition-colors font-medium">
               How It Works
             </a>
-            <a href="#why-snackhaus" className="text-white hover:text-primary transition-colors">
+            <a href="#why-snackhaus" className="text-white hover:text-primary transition-colors font-medium">
               Our Coolers
             </a>
-            <a href="#" className="text-white hover:text-primary transition-colors">
+            <a href="#" className="text-white hover:text-primary transition-colors font-medium">
               FAQ
             </a>
-            <a href="#get-started" className="text-white hover:text-primary transition-colors">
+            <a href="#get-started" className="text-white hover:text-primary transition-colors font-medium">
               Contact
             </a>
           </div>
+          <button className="md:hidden text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </button>
         </div>
       </nav>
 
