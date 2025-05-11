@@ -260,10 +260,10 @@ function App() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.6 }}
               >
-                <a href="#get-started" className="btn-primary">
+                <a href="#get-started" className="btn-primary rounded-md px-6 py-3 flex items-center">
                   Get a Cooler <ArrowRightIcon className="w-5 h-5 ml-2" />
                 </a>
-                <a href="#how-it-works" className="btn-secondary">
+                <a href="#how-it-works" className="btn-secondary rounded-md px-6 py-3 flex items-center">
                   How It Works <ArrowSmallDownIcon className="w-5 h-5 ml-2" />
                 </a>
               </motion.div>
