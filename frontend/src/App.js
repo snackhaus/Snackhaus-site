@@ -219,51 +219,54 @@ function App() {
 
       {/* Hero Section */}
       <section className="pt-24 pb-20 md:py-0 relative overflow-hidden min-h-screen flex items-center">
-        <div className="absolute inset-0">
-          <img 
-            src="https://iili.io/3vMYhBI.jpg" 
-            alt="Snackhaus Smart Cooler" 
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-black bg-opacity-20"></div>
-        </div>
-        
         <div className="container-custom relative z-10">
-          <div className="max-w-2xl py-20">
-            <motion.h1 
-              className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-white"
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-            >
-              Fuel better. <br />
-              <span className="text-primary">Earn more.</span>
-            </motion.h1>
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div className="relative order-1">
+              <img 
+                src="https://iili.io/3vMYhBI.jpg" 
+                alt="Snackhaus Smart Cooler" 
+                className="w-full h-auto rounded-xl object-cover shadow-lg"
+              />
+            </div>
             
-            <motion.p 
-              className="text-xl md:text-2xl mb-8 text-white/90"
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.4 }}
-            >
-              Snackhaus places smart coolers in your space stocked with premium wellness snacks—no cost, no hassle.
-            </motion.p>
-            
-            <motion.div 
-              className="flex flex-wrap gap-4"
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.6 }}
-            >
-              <a href="#get-started" className="btn-primary">
-                Get a Cooler <ArrowRightIcon className="w-5 h-5 ml-2" />
-              </a>
-              <a href="#how-it-works" className="btn-secondary">
-                How It Works <ArrowSmallDownIcon className="w-5 h-5 ml-2" />
-              </a>
-            </motion.div>
+            <div className="order-2">
+              <motion.h1 
+                className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-white"
+                initial={{ opacity: 0, y: -20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.2 }}
+              >
+                Fuel better. <br />
+                <span className="text-primary">Earn more.</span>
+              </motion.h1>
+              
+              <motion.p 
+                className="text-xl md:text-2xl mb-8 text-white/90"
+                initial={{ opacity: 0, y: -20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.4 }}
+              >
+                Snackhaus places smart coolers in your space stocked with premium wellness snacks—no cost, no hassle.
+              </motion.p>
+              
+              <motion.div 
+                className="flex flex-wrap gap-4"
+                initial={{ opacity: 0, y: -20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.6 }}
+              >
+                <a href="#get-started" className="btn-primary">
+                  Get a Cooler <ArrowRightIcon className="w-5 h-5 ml-2" />
+                </a>
+                <a href="#how-it-works" className="btn-secondary">
+                  How It Works <ArrowSmallDownIcon className="w-5 h-5 ml-2" />
+                </a>
+              </motion.div>
+            </div>
           </div>
         </div>
+        
+        <div className="absolute inset-0 -z-10 bg-gradient-to-r from-secondary-dark to-secondary-light opacity-95"></div>
       </section>
 
       {/* How It Works Section */}
