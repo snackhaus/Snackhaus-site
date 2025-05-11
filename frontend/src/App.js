@@ -195,7 +195,7 @@ function App() {
   };
 
   return (
-    <div className="App bg-gradient-to-b from-secondary to-secondary-light text-white">
+    <div className="App text-white">
       {/* Navbar */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-transparent">
         <div className="container-custom py-6 flex justify-between items-center">
