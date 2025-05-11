@@ -217,7 +217,7 @@ function App() {
       {/* Hero Section */}
       <section className="pt-32 pb-20 md:pt-40 md:pb-32 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-radial from-secondary-light to-secondary-dark opacity-40"></div>
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1550720766-13563d26a25f')] bg-cover bg-center bg-no-repeat opacity-20 mix-blend-overlay"></div>
+        <div className="absolute inset-0 bg-[url('/images/snackhaus-cooler-hero.jpg')] bg-cover bg-center bg-no-repeat opacity-30 mix-blend-overlay"></div>
         
         <div className="container-custom relative z-10">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -265,13 +265,10 @@ function App() {
               <div className="relative">
                 <div className="absolute -inset-0.5 bg-primary rounded-3xl blur-md"></div>
                 <img 
-                  src="https://images.unsplash.com/photo-1550720766-13563d26a25f" 
+                  src="/images/snackhaus-cooler-hero.jpg" 
                   alt="Snackhaus Smart Cooler" 
                   className="relative rounded-2xl w-full h-auto z-10 animate-float object-cover"
                 />
-              </div>
-              <div className="absolute top-4 right-4 bg-primary text-secondary-dark px-4 py-2 rounded-full font-bold z-20">
-                Smart Cooler
               </div>
             </motion.div>
           </div>
