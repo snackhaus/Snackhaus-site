@@ -440,7 +440,7 @@ function App() {
           
           <div className="mt-16 flex justify-center">
             <img 
-              src="https://images.unsplash.com/photo-1477013743164-ffc3a5e556da" 
+              src="/images/snackhaus-cooler-hero.jpg" 
               alt="Business revenue growth" 
               className="w-full max-w-lg h-auto rounded-2xl shadow-lg"
             />
