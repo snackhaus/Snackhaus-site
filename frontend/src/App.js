@@ -251,9 +251,9 @@ function App() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
               >
-                Fuel better.
+                Fuel better
                 <br />
-                <span className="text-primary">Earn more.</span>
+                wherever you are
               </motion.h1>
               
               <motion.p 
@@ -262,7 +262,7 @@ function App() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.4 }}
               >
-                Snackhaus places smart coolers in your space stocked with premium wellness snacks—no cost, no hassle.
+                Premium smart coolers stocked with functional snacks and drinks. We handle everything—you just host.
               </motion.p>
               
               <motion.div 
