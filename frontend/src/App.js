@@ -218,7 +218,7 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-24 pb-20 md:py-0 relative overflow-hidden min-h-screen flex items-center">
+      <section className="py-24 md:py-20 relative overflow-hidden min-h-screen md:flex md:items-center">
         <div className="container-custom relative z-10">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="relative order-1">
