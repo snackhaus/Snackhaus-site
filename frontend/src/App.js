@@ -225,6 +225,7 @@ function App() {
             alt="Snackhaus Smart Cooler" 
             className="w-full h-full object-cover"
           />
+          <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         </div>
         
         <div className="container-custom relative z-10">
