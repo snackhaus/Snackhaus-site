@@ -466,7 +466,7 @@ function App() {
                   transition={{ duration: 0.8 }}
                 >
                   <img 
-                    src="https://images.unsplash.com/photo-1557688664-4f5d04cd34ad" 
+                    src="/images/snackhaus-cooler-hero.jpg" 
                     alt="Person grabbing drink from cooler" 
                     className="w-full h-auto object-cover rounded-2xl"
                   />
