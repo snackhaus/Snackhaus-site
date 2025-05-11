@@ -265,7 +265,7 @@ function App() {
               <div className="relative">
                 <div className="absolute -inset-0.5 bg-primary rounded-3xl blur-md"></div>
                 <img 
-                  src="/images/snackhaus-cooler-hero.jpg" 
+                  src="https://iili.io/3vMYhBI.jpg" 
                   alt="Snackhaus Smart Cooler" 
                   className="relative rounded-2xl w-full h-auto z-10 animate-float object-cover"
                 />
