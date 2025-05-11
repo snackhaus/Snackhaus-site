@@ -333,7 +333,7 @@ function App() {
                 transition={{ duration: 0.8 }}
               >
                 <img 
-                  src="https://images.unsplash.com/photo-1504712598893-24159a89200e" 
+                  src="/images/snackhaus-cooler-hero.jpg" 
                   alt="Premium healthy snacks" 
                   className="w-full h-auto object-cover rounded-2xl"
                 />
