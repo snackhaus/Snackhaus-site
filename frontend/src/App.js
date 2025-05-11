@@ -231,9 +231,9 @@ function App() {
         
         {/* Content overlay */}
         <div className="relative h-full container-custom flex items-center pt-20 md:pt-0">
-          <div className="md:grid md:grid-cols-2 w-full">
-            <div className="md:col-span-1"></div> {/* Empty column for spacing */}
-            <div className="md:col-span-1 text-white px-4 md:px-0">
+          <div className="md:grid md:grid-cols-12 w-full">
+            <div className="md:col-span-7"></div> {/* Increased empty space to push content further right */}
+            <div className="md:col-span-5 text-white px-4 md:px-0">
               <motion.h1 
                 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6"
                 initial={{ opacity: 0, y: -20 }}
