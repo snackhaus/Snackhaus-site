@@ -215,61 +215,48 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 md:pt-40 md:pb-32 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-radial from-secondary-light to-secondary-dark opacity-40"></div>
-        <div className="absolute inset-0 bg-[url('https://iili.io/3vMYhBI.jpg')] bg-cover bg-center bg-no-repeat opacity-30 mix-blend-overlay"></div>
+      <section className="pt-24 pb-20 md:py-0 relative overflow-hidden min-h-screen flex items-center">
+        <div className="absolute inset-0">
+          <img 
+            src="https://iili.io/3vMYhBI.jpg" 
+            alt="Snackhaus Smart Cooler" 
+            className="w-full h-full object-cover"
+          />
+        </div>
         
         <div className="container-custom relative z-10">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <motion.h1 
-                className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-white"
-                initial={{ opacity: 0, y: -20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.2 }}
-              >
-                Fuel better. <br />
-                <span className="text-primary">Earn more.</span>
-              </motion.h1>
-              
-              <motion.p 
-                className="text-xl md:text-2xl mb-8 text-white/80"
-                initial={{ opacity: 0, y: -20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.4 }}
-              >
-                Snackhaus places smart coolers in your space stocked with premium wellness snacks—no cost, no hassle.
-              </motion.p>
-              
-              <motion.div 
-                className="flex flex-wrap gap-4"
-                initial={{ opacity: 0, y: -20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.6 }}
-              >
-                <a href="#get-started" className="btn-primary">
-                  Get a Cooler <ArrowRightIcon className="w-5 h-5 ml-2" />
-                </a>
-                <a href="#how-it-works" className="btn-secondary">
-                  How It Works <ArrowSmallDownIcon className="w-5 h-5 ml-2" />
-                </a>
-              </motion.div>
-            </div>
-            
-            <motion.div
-              className="relative"
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.8, delay: 0.6 }}
+          <div className="max-w-2xl py-20">
+            <motion.h1 
+              className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-white"
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <div className="relative">
-                <div className="absolute -inset-0.5 bg-primary rounded-3xl blur-md"></div>
-                <img 
-                  src="https://iili.io/3vMYhBI.jpg" 
-                  alt="Snackhaus Smart Cooler" 
-                  className="relative rounded-2xl w-full h-auto z-10 animate-float object-cover"
-                />
-              </div>
+              Fuel better. <br />
+              <span className="text-primary">Earn more.</span>
+            </motion.h1>
+            
+            <motion.p 
+              className="text-xl md:text-2xl mb-8 text-white/90"
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+            >
+              Snackhaus places smart coolers in your space stocked with premium wellness snacks—no cost, no hassle.
+            </motion.p>
+            
+            <motion.div 
+              className="flex flex-wrap gap-4"
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.6 }}
+            >
+              <a href="#get-started" className="btn-primary">
+                Get a Cooler <ArrowRightIcon className="w-5 h-5 ml-2" />
+              </a>
+              <a href="#how-it-works" className="btn-secondary">
+                How It Works <ArrowSmallDownIcon className="w-5 h-5 ml-2" />
+              </a>
             </motion.div>
           </div>
         </div>
