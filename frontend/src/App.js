@@ -205,17 +205,17 @@ function App() {
         <div className="container-custom flex justify-between items-center">
           <SnackhausLogo />
           <div className="hidden md:flex gap-8">
-            <a href="#cooler-features" className="text-white hover:text-primary transition-colors font-medium uppercase tracking-wider">
-              Cooler Features
+            <a href="#how-it-works" className="text-white hover:text-primary transition-colors font-medium">
+              How It Works
             </a>
-            <a href="#who-its-for" className="text-white hover:text-primary transition-colors font-medium uppercase tracking-wider">
-              Who It's For
+            <a href="#why-snackhaus" className="text-white hover:text-primary transition-colors font-medium">
+              Our Coolers
             </a>
-            <a href="#faqs" className="text-white hover:text-primary transition-colors font-medium uppercase tracking-wider">
-              FAQs
+            <a href="#" className="text-white hover:text-primary transition-colors font-medium">
+              FAQ
             </a>
-            <a href="#get-started" className="text-white hover:text-primary transition-colors font-medium uppercase tracking-wider">
-              Get In Touch
+            <a href="#get-started" className="text-white hover:text-primary transition-colors font-medium">
+              Contact
             </a>
           </div>
           <button className="md:hidden text-white">
