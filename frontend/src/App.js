@@ -231,7 +231,7 @@ function App() {
         {/* Full-screen background image */}
         <div className="absolute inset-0">
           <img 
-            src="https://images.unsplash.com/photo-1625650484478-113df4bfc370" 
+            src="https://iili.io/3vMYhBI.jpg" 
             alt="Snackhaus Smart Cooler" 
             className="w-full h-full object-cover"
           />
