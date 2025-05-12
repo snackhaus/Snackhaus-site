@@ -238,19 +238,6 @@ function App() {
           <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         </div>
         
-        {/* Text on left side of the cooler */}
-        <div className="absolute top-1/4 left-8 z-50 text-primary font-medium text-3xl md:text-4xl lg:text-5xl leading-tight hidden md:block">
-          <div>Fuel</div>
-          <div>better</div>
-          <div>wherever</div>
-          <div>you are</div>
-        </div>
-        
-        {/* Website URL at bottom left */}
-        <div className="absolute bottom-8 left-8 z-50 text-primary font-medium">
-          <span>snackhaus.com.au</span>
-        </div>
-        
         {/* Content overlay */}
         <div className="relative h-full container-custom flex items-center pt-20 md:pt-0">
           <div className="md:grid md:grid-cols-12 w-full">
