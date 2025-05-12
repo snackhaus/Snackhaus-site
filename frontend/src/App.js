@@ -199,7 +199,7 @@ function App() {
   };
 
   return (
-    <div className="App text-white bg-[#00102A]">
+    <div className="App text-white">
       {/* Navbar */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-transparent py-8">
         <div className="container-custom flex justify-between items-center">
