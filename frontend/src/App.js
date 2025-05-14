@@ -260,7 +260,7 @@ function App() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.4 }}
               >
-                Snackhaus places smart coolers in your space stocked with premium wellness snacks—no cost, no hassle.
+                We place and operate our AI-powered snackhaus cooler in your gym so your members stay fuelled - and you earn passively
               </motion.p>
               
               <motion.div 
