@@ -285,37 +285,108 @@ function App() {
       <AnimatedSection id="how-it-works" className="section-padding bg-neutral-100 text-secondary">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl mb-4">How It Works</h2>
-            <p className="text-xl text-neutral-800 max-w-2xl mx-auto">
-              Three simple steps to boost your revenue with zero hassle
+            <h2 className="text-4xl md:text-5xl mb-6">Meet snackhaus, Your Gym's Smart Cooler</h2>
+            <p className="text-xl text-neutral-800 max-w-3xl mx-auto mb-4">
+              snackhaus is a next-gen, AI-powered fridge designed for modern fitness spaces.
+            </p>
+            <p className="text-xl text-neutral-800 max-w-3xl mx-auto mb-4">
+              It uses smart sensors and cameras to let your members tap, grab, and go - no buttons,
+              no queues, no staff required.
+            </p>
+            <p className="text-xl text-neutral-800 max-w-3xl mx-auto">
+              We handle everything: installation, stocking, payments, tracking and restocks. You just provide the space.
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8">
-            <StepCard 
-              number="1" 
-              title="We Place It" 
-              description="You get a sleek, branded smart fridge delivered, stocked, and ready to go."
-              delay={0.2}
-            />
-            <StepCard 
-              number="2" 
-              title="We Stock It" 
-              description="Curated protein shakes, bars, coconut waters and more—always fresh, always premium."
-              delay={0.4}
-            />
-            <StepCard 
-              number="3" 
-              title="You Earn" 
-              description="You get a share of the revenue. Zero upfront costs, zero effort."
-              delay={0.6}
-            />
+          <div className="mt-20">
+            <h3 className="text-3xl text-center mb-12">How it works</h3>
+            
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="text-center">
+                <div className="mb-6 overflow-hidden rounded-lg">
+                  <img 
+                    src="https://iili.io/3g5ZT3Q.webp" 
+                    alt="Tap to unlock the cooler" 
+                    className="w-full h-auto object-cover transition-transform duration-500 hover:scale-105"
+                  />
+                </div>
+                <h4 className="text-2xl font-bold mb-3">Tap</h4>
+                <p className="text-neutral-700">
+                  Unlock the cooler instantly with a contactless tap
+                </p>
+              </div>
+              
+              <div className="text-center">
+                <div className="mb-6 overflow-hidden rounded-lg">
+                  <img 
+                    src="https://iili.io/3g5t3iJ.webp" 
+                    alt="Grab your snacks" 
+                    className="w-full h-auto object-cover transition-transform duration-500 hover:scale-105"
+                  />
+                </div>
+                <h4 className="text-2xl font-bold mb-3">Grab</h4>
+                <p className="text-neutral-700">
+                  Choose from a range of clean, high-performance snacks
+                </p>
+              </div>
+              
+              <div className="text-center">
+                <div className="mb-6 overflow-hidden rounded-lg">
+                  <img 
+                    src="https://iili.io/3g5tmqG.webp" 
+                    alt="Go - just close the door" 
+                    className="w-full h-auto object-cover transition-transform duration-500 hover:scale-105"
+                  />
+                </div>
+                <h4 className="text-2xl font-bold mb-3">Go</h4>
+                <p className="text-neutral-700">
+                  Just close the door and walk away - you're auto-charged
+                </p>
+              </div>
+            </div>
           </div>
           
-          <div className="mt-16 text-center">
-            <a href="#get-started" className="btn-primary">
-              Get Started Now <ArrowRightIcon className="w-5 h-5 ml-2" />
-            </a>
+          <div className="mt-24">
+            <h3 className="text-3xl text-center mb-12">Feature Highlights</h3>
+            
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+              <div className="text-center">
+                <div className="flex justify-center mb-5">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-12 h-12 text-primary">
+                    <path d="M11.47 1.72a.75.75 0 011.06 0l3 3a.75.75 0 01-1.06 1.06l-1.72-1.72V7.5h-1.5V4.06L9.53 5.78a.75.75 0 01-1.06-1.06l3-3zM11.25 7.5V15a.75.75 0 001.5 0V7.5h3.75a3 3 0 013 3v9a3 3 0 01-3 3h-9a3 3 0 01-3-3v-9a3 3 0 013-3h3.75z" />
+                  </svg>
+                </div>
+                <h4 className="text-xl font-bold mb-2">100% autonomous</h4>
+              </div>
+              
+              <div className="text-center">
+                <div className="flex justify-center mb-5">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-12 h-12 text-primary">
+                    <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 6a.75.75 0 00-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 000-1.5h-3.75V6z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <h4 className="text-xl font-bold mb-2">24/7 operation</h4>
+              </div>
+              
+              <div className="text-center">
+                <div className="flex justify-center mb-5">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-12 h-12 text-primary">
+                    <path fillRule="evenodd" d="M2.25 13.5a8.25 8.25 0 018.25-8.25.75.75 0 01.75.75v6.75H18a.75.75 0 01.75.75 8.25 8.25 0 01-16.5 0z" clipRule="evenodd" />
+                    <path fillRule="evenodd" d="M12.75 3a.75.75 0 01.75-.75 8.25 8.25 0 018.25 8.25.75.75 0 01-.75.75h-7.5a.75.75 0 01-.75-.75V3z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <h4 className="text-xl font-bold mb-2">Remote tracking & real-time alerts</h4>
+              </div>
+              
+              <div className="text-center">
+                <div className="flex justify-center mb-5">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-12 h-12 text-primary">
+                    <path fillRule="evenodd" d="M9.401 3.003c1.155-2 4.043-2 5.197 0l7.355 12.748c1.154 2-.29 4.5-2.599 4.5H4.645c-2.309 0-3.752-2.5-2.598-4.5L9.4 3.003zM12 8.25a.75.75 0 01.75.75v3.75a.75.75 0 01-1.5 0V9a.75.75 0 01.75-.75zm0 8.25a.75.75 0 100-1.5.75.75 0 000 1.5z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <h4 className="text-xl font-bold mb-2">Zero admin required</h4>
+              </div>
+            </div>
           </div>
         </div>
       </AnimatedSection>
