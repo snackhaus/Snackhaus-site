@@ -395,65 +395,51 @@ function App() {
       <AnimatedSection id="why-snackhaus" className="section-padding bg-secondary">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl mb-4">Why Snackhaus</h2>
-            <p className="text-xl text-white/80 max-w-2xl mx-auto">
-              Smart coolers, premium snacks, and a hassle-free experience
-            </p>
+            <h2 className="text-4xl md:text-5xl mb-6 text-white">More Revenue. Better Snacks. Zero Maintenance.</h2>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-12 mb-16">
-            <div className="relative">
-              <motion.div
-                className="relative rounded-2xl overflow-hidden"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 0.8 }}
-              >
-                <img 
-                  src="https://iili.io/3vMYhBI.jpg" 
-                  alt="Premium healthy snacks" 
-                  className="w-full h-auto object-cover rounded-2xl"
-                />
-              </motion.div>
-            </div>
-            
+          <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h3 className="text-3xl mb-6">Smart Coolers, Smarter Snacks</h3>
+              <p className="text-xl text-white/90 mb-8">
+                Snackhaus smart coolers are built to outperform traditional vending — without the headaches.
+                Thanks to smarter tech and a better product mix, Snackhaus generates 2–3x more revenue than typical vending machines.
+              </p>
+              
+              <h3 className="text-2xl text-primary mb-6">Why it works:</h3>
+              
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1 mr-3" />
-                  <div>
-                    <p className="font-semibold text-lg">AI-powered, contactless checkout</p>
-                    <p className="text-white/70">Our smart technology means seamless transactions for customers.</p>
-                  </div>
+                  <p className="text-white/90 text-lg">
+                    Healthier, higher-margin snacks your members actually want
+                  </p>
                 </li>
                 <li className="flex items-start">
                   <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1 mr-3" />
-                  <div>
-                    <p className="font-semibold text-lg">No staffing needed</p>
-                    <p className="text-white/70">The coolers run autonomously with our automated monitoring system.</p>
-                  </div>
+                  <p className="text-white/90 text-lg">
+                    Frictionless AI-powered experience (no buttons, no jams)
+                  </p>
                 </li>
                 <li className="flex items-start">
                   <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1 mr-3" />
-                  <div>
-                    <p className="font-semibold text-lg">Weight sensors and cameras track every sale</p>
-                    <p className="text-white/70">Advanced tracking ensures accurate inventory and revenue sharing.</p>
-                  </div>
+                  <p className="text-white/90 text-lg">
+                    Real-time tracking & restock alerts keep it running 24/7
+                  </p>
                 </li>
                 <li className="flex items-start">
                   <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1 mr-3" />
-                  <div>
-                    <p className="font-semibold text-lg">Clean design that fits any premium space</p>
-                    <p className="text-white/70">Our coolers complement high-end environments with sleek aesthetics.</p>
-                  </div>
+                  <p className="text-white/90 text-lg">
+                    You do nothing — we manage it all
+                  </p>
                 </li>
               </ul>
+              
+              <p className="text-xl text-white/90 mt-8">
+                Snackhaus looks better, works smarter, and earns more — with zero effort from you.
+              </p>
             </div>
-          </div>
-          
-          <div className="grid md:grid-cols-2 gap-12 flex-row-reverse">
-            <div>
+            
+            <div className="relative order-first md:order-last">
               <motion.div
                 className="relative rounded-2xl overflow-hidden"
                 initial={{ opacity: 0 }}
@@ -461,24 +447,12 @@ function App() {
                 transition={{ duration: 0.8 }}
               >
                 <img 
-                  src="https://iili.io/3vMYhBI.jpg" 
-                  alt="Modern gym interior" 
+                  src="https://images.unsplash.com/photo-1611323588252-32224a7a2921" 
+                  alt="Snackhaus Smart Cooler" 
                   className="w-full h-auto object-cover rounded-2xl"
                 />
+                <div className="absolute inset-0 bg-primary/10 mix-blend-overlay rounded-2xl"></div>
               </motion.div>
-            </div>
-            
-            <div className="flex flex-col justify-center">
-              <h3 className="text-3xl mb-6">Better Brands, Better Experience</h3>
-              <p className="text-xl mb-6 text-white/80">
-                We stock products your customers actually want. Think Smart Protein Bars, Remedy, and cold-pressed essentials.
-              </p>
-              <p className="text-white/70 mb-6">
-                Our premium selection of health-focused snacks and drinks keeps your customers energized and satisfied.
-              </p>
-              <p className="text-white/70">
-                Regular product rotation and seasonal specials keep your offering fresh and exciting.
-              </p>
             </div>
           </div>
         </div>
