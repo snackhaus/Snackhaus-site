@@ -402,7 +402,7 @@ function App() {
             <div>
               <p className="text-xl text-white/90 mb-8">
                 Snackhaus smart coolers are built to outperform traditional vending — without the headaches.
-                Thanks to smarter tech and a better product mix, Snackhaus generates 2–3x more revenue than typical vending machines.
+                Smarter tech, real-time data, and a curated product mix help Snackhaus generate 2–3x more revenue than typical vending machines.
               </p>
               
               <h3 className="text-2xl text-primary mb-6">Why it works:</h3>
@@ -411,25 +411,43 @@ function App() {
                 <li className="flex items-start">
                   <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1 mr-3" />
                   <p className="text-white/90 text-lg">
-                    Healthier, higher-margin snacks your members actually want
+                    AI-powered cameras + weight sensors track what's taken — in real time, with precision
                   </p>
                 </li>
                 <li className="flex items-start">
                   <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1 mr-3" />
                   <p className="text-white/90 text-lg">
-                    Frictionless AI-powered experience (no buttons, no jams)
+                    Touch-free, frictionless experience — no buttons, no jams
                   </p>
                 </li>
                 <li className="flex items-start">
                   <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1 mr-3" />
                   <p className="text-white/90 text-lg">
-                    Real-time tracking & restock alerts keep it running 24/7
+                    Built-in screen for advertising = optional second income stream
                   </p>
                 </li>
                 <li className="flex items-start">
                   <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1 mr-3" />
                   <p className="text-white/90 text-lg">
-                    You do nothing — we manage it all
+                    LED halo light draws attention and increases walk-up traffic
+                  </p>
+                </li>
+                <li className="flex items-start">
+                  <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1 mr-3" />
+                  <p className="text-white/90 text-lg">
+                    Sleek, premium design that elevates your gym's reception or breakout area
+                  </p>
+                </li>
+                <li className="flex items-start">
+                  <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1 mr-3" />
+                  <p className="text-white/90 text-lg">
+                    We handle everything — install, stock, monitor, and maintain
+                  </p>
+                </li>
+                <li className="flex items-start">
+                  <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1 mr-3" />
+                  <p className="text-white/90 text-lg">
+                    Nutritionist-approved, higher-margin snacks your members actually want
                   </p>
                 </li>
               </ul>
