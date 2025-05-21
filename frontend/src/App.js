@@ -411,13 +411,13 @@ function App() {
                 <li className="flex items-start">
                   <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1 mr-3" />
                   <p className="text-white/90 text-lg">
-                    AI-powered cameras + weight sensors track what's taken — in real time, with precision
+                    Smart sensors, cameras, and weight tracking monitor every product in real time — with precision
                   </p>
                 </li>
                 <li className="flex items-start">
                   <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1 mr-3" />
                   <p className="text-white/90 text-lg">
-                    Touch-free, frictionless experience — no buttons, no jams
+                    Frictionless, touch-free UX — no buttons, no jams, works 24/7
                   </p>
                 </li>
                 <li className="flex items-start">
@@ -429,25 +429,13 @@ function App() {
                 <li className="flex items-start">
                   <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1 mr-3" />
                   <p className="text-white/90 text-lg">
-                    LED halo light draws attention and increases walk-up traffic
-                  </p>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1 mr-3" />
-                  <p className="text-white/90 text-lg">
-                    Sleek, premium design that elevates your gym's reception or breakout area
+                    LED halo + premium design attracts attention and elevates your space
                   </p>
                 </li>
                 <li className="flex items-start">
                   <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1 mr-3" />
                   <p className="text-white/90 text-lg">
                     We handle everything — install, stock, monitor, and maintain
-                  </p>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1 mr-3" />
-                  <p className="text-white/90 text-lg">
-                    Nutritionist-approved, higher-margin snacks your members actually want
                   </p>
                 </li>
               </ul>
