@@ -441,7 +441,7 @@ function App() {
             
             <div className="relative order-first md:order-last">
               <motion.div
-                className="relative rounded-2xl overflow-hidden"
+                className="relative rounded-2xl overflow-hidden border border-primary/20 shadow-lg"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.8 }}
