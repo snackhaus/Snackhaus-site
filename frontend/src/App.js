@@ -447,7 +447,7 @@ function App() {
                 transition={{ duration: 0.8 }}
               >
                 <img 
-                  src="https://i.ibb.co/fYBVnzc/snackhaus-cooler.jpg" 
+                  src="https://iili.io/3vMYhBI.jpg" 
                   alt="Snackhaus Smart Cooler" 
                   className="w-full h-auto object-cover rounded-2xl"
                 />
