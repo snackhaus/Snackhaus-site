@@ -303,7 +303,7 @@ function App() {
             
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
-                <div className="mb-6 overflow-hidden rounded-lg">
+                <div className="mb-6 overflow-hidden rounded-lg shadow-lg border border-primary/20">
                   <img 
                     src="https://iili.io/3g5ZT3Q.webp" 
                     alt="Tap to unlock the cooler" 
@@ -317,7 +317,7 @@ function App() {
               </div>
               
               <div className="text-center">
-                <div className="mb-6 overflow-hidden rounded-lg">
+                <div className="mb-6 overflow-hidden rounded-lg shadow-lg border border-primary/20">
                   <img 
                     src="https://iili.io/3g5t3iJ.webp" 
                     alt="Grab your snacks" 
@@ -331,7 +331,7 @@ function App() {
               </div>
               
               <div className="text-center">
-                <div className="mb-6 overflow-hidden rounded-lg">
+                <div className="mb-6 overflow-hidden rounded-lg shadow-lg border border-primary/20">
                   <img 
                     src="https://iili.io/3g5tmqG.webp" 
                     alt="Go - just close the door" 
