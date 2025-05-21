@@ -392,7 +392,7 @@ function App() {
       </AnimatedSection>
 
       {/* Why Snackhaus Section */}
-      <AnimatedSection id="why-snackhaus" className="section-padding bg-secondary">
+      <AnimatedSection id="why-snackhaus" className="section-padding bg-secondary-dark">
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl mb-6 text-white">More Revenue. Better Snacks. Zero Maintenance.</h2>
