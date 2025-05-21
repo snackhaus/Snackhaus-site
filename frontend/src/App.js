@@ -326,7 +326,7 @@ function App() {
                 </div>
                 <h4 className="text-2xl font-bold mb-3">Grab</h4>
                 <p className="text-neutral-700">
-                  Grab high-performance snacks curated by health pros — no junk, ever.
+                  Grab snacks that support performance, energy, and recovery — curated with care.
                 </p>
               </div>
               
