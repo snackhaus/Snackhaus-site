@@ -202,9 +202,8 @@ function App() {
     <div className="App text-white">
       {/* Navbar */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-secondary-dark border-b border-primary/10">
-        <div className="container-custom py-1.5 flex justify-between items-center">
-          <SnackhausLogo />
-          <div className="hidden md:flex gap-6">
+        <div className="container-custom py-1.5 flex justify-end items-center">
+          <div className="flex gap-6">
             <a href="#how-it-works" className="text-white hover:text-primary transition-colors text-sm">
               How It Works
             </a>
@@ -218,11 +217,6 @@ function App() {
               Contact
             </a>
           </div>
-          <button className="md:hidden text-white">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-            </svg>
-          </button>
         </div>
       </nav>
 
