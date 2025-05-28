@@ -202,7 +202,7 @@ function App() {
     <div className="App text-white">
       {/* Navbar */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-secondary-dark border-b border-primary/20 shadow-md">
-        <div className="container-custom py-3 flex justify-between items-center">
+        <div className="container-custom py-5 flex justify-between items-center">
           <SnackhausLogo />
           <div className="hidden md:flex gap-8">
             <a href="#how-it-works" className="text-white hover:text-primary transition-colors font-medium">
