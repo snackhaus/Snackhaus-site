@@ -201,7 +201,7 @@ function App() {
   return (
     <div className="App text-white">
       {/* Navbar */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-secondary-dark border-b border-primary/20 shadow-md">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-secondary-dark border-b border-primary/10">
         <div className="container-custom py-1.5 flex justify-between items-center">
           <SnackhausLogo />
           <div className="hidden md:flex gap-6">
