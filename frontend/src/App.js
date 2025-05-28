@@ -227,7 +227,7 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-36 md:pt-36 relative h-screen overflow-hidden">
+      <section className="pt-48 md:pt-44 relative h-screen overflow-hidden">
         {/* Full-screen background image */}
         <div className="absolute inset-0">
           <img 
