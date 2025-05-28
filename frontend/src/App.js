@@ -475,7 +475,7 @@ function App() {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-12 mb-16">
+          <div className="grid md:grid-cols-2 gap-10 mb-16 max-w-6xl mx-auto">
             <div>
               <h3 className="text-2xl font-bold mb-4">Every product supports energy, recovery, or hydration.</h3>
               <p className="text-lg text-neutral-700 mb-4">
