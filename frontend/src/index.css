@@ -55,8 +55,21 @@
   }
 }
 
+@keyframes carousel {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 .animate-float {
   animation: float 4s ease-in-out infinite;
+}
+
+.animate-carousel {
+  animation: carousel 40s linear infinite;
 }
 
 .section-padding {
