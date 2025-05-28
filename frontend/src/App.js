@@ -204,17 +204,17 @@ function App() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-secondary-dark border-b border-primary/20 shadow-md">
         <div className="container-custom py-1.5 flex justify-between items-center">
           <SnackhausLogo />
-          <div className="hidden md:flex gap-8">
-            <a href="#how-it-works" className="text-white hover:text-primary transition-colors font-medium">
+          <div className="hidden md:flex gap-6">
+            <a href="#how-it-works" className="text-white hover:text-primary transition-colors text-sm">
               How It Works
             </a>
-            <a href="#why-snackhaus" className="text-white hover:text-primary transition-colors font-medium">
+            <a href="#why-snackhaus" className="text-white hover:text-primary transition-colors text-sm">
               Our Coolers
             </a>
-            <a href="#" className="text-white hover:text-primary transition-colors font-medium">
+            <a href="#" className="text-white hover:text-primary transition-colors text-sm">
               FAQ
             </a>
-            <a href="#get-started" className="text-white hover:text-primary transition-colors font-medium">
+            <a href="#get-started" className="text-white hover:text-primary transition-colors text-sm">
               Contact
             </a>
           </div>
