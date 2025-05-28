@@ -479,29 +479,57 @@ function App() {
             <div>
               <h3 className="text-2xl font-bold mb-4">Every product supports energy, recovery, or hydration.</h3>
               <p className="text-lg text-neutral-700 mb-4">
-                Think clean protein, functional drinks, and smart snacks you won't find in typical machines.
-                No sugary sodas. No "better-for-you" junk. No filler.
+                We label everything with clear, color-coded tags so you can make better snack decisions in seconds.
+                Whether you want clean protein after a workout or low-sugar fuel between meetings, it's easy to grab what's right for you.
               </p>
-              
-              <div className="flex flex-wrap gap-3 my-8">
-                <span className="bg-primary/20 text-secondary-dark px-4 py-2 rounded-full font-medium">High-Protein</span>
-                <span className="bg-primary/20 text-secondary-dark px-4 py-2 rounded-full font-medium">Low-Sugar</span>
-                <span className="bg-primary/20 text-secondary-dark px-4 py-2 rounded-full font-medium">Vegan-Friendly</span>
-                <span className="bg-primary/20 text-secondary-dark px-4 py-2 rounded-full font-medium">Keto Options</span>
-                <span className="bg-primary/20 text-secondary-dark px-4 py-2 rounded-full font-medium">Low Artificial Sweeteners</span>
-              </div>
+              <p className="text-lg text-neutral-700 mb-6">
+                Snack tags appear directly on the smart cooler's LED shelf display, beneath each product — helping users instantly identify what suits their needs.
+              </p>
               
               <p className="text-xl font-semibold text-secondary mt-6">
                 Curated for performance. Stocked to sell.
               </p>
             </div>
             
-            <div className="relative rounded-xl overflow-hidden shadow-lg border border-primary/20">
-              <img 
-                src="https://images.unsplash.com/photo-1622467827417-bbe2237067a9" 
-                alt="Curated healthy snacks" 
-                className="w-full h-full object-cover"
-              />
+            <div className="bg-white p-6 rounded-xl shadow-lg border border-primary/20">
+              <h3 className="text-xl font-bold mb-4 text-center">Snack Tag Key</h3>
+              <div className="grid grid-cols-1 gap-4">
+                <div className="flex items-center">
+                  <div className="w-4 h-4 rounded-full bg-blue-500 mr-3"></div>
+                  <div>
+                    <div className="font-semibold">High-Protein</div>
+                    <div className="text-sm text-neutral-600">Builds and repairs muscle – ideal post-workout</div>
+                  </div>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-4 h-4 rounded-full bg-orange-500 mr-3"></div>
+                  <div>
+                    <div className="font-semibold">Keto Options</div>
+                    <div className="text-sm text-neutral-600">Low-carb snacks for fat-adapted diets</div>
+                  </div>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-4 h-4 rounded-full bg-yellow-400 mr-3"></div>
+                  <div>
+                    <div className="font-semibold">Low Artificial Sweeteners</div>
+                    <div className="text-sm text-neutral-600">Clean taste without the weird stuff</div>
+                  </div>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-4 h-4 rounded-full bg-green-500 mr-3"></div>
+                  <div>
+                    <div className="font-semibold">Vegan-Friendly</div>
+                    <div className="text-sm text-neutral-600">100% plant-based fuel</div>
+                  </div>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-4 h-4 rounded-full bg-purple-500 mr-3"></div>
+                  <div>
+                    <div className="font-semibold">Low-Sugar</div>
+                    <div className="text-sm text-neutral-600">Keeps energy stable without the crash</div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           
