@@ -527,7 +527,10 @@ function App() {
                     <div className="text-sm text-neutral-600 font-light leading-snug">Clean taste without the weird stuff</div>
                   </div>
                   <div className="flex items-center">
-                    <span className="bg-green-400 text-white px-3 py-1 rounded-full text-sm font-medium mr-3 flex-shrink-0">Vegan-Friendly</span>
+                    <span className="bg-green-400 text-white px-3 py-1.5 rounded-full text-sm font-medium mr-3 flex-shrink-0 flex flex-col leading-tight text-center">
+                      <span>Vegan-</span>
+                      <span>Friendly</span>
+                    </span>
                     <div className="text-sm text-neutral-600 font-light leading-snug">100% plant-based fuel</div>
                   </div>
                   <div className="flex items-center">
