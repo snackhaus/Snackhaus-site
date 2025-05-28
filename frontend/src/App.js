@@ -539,7 +539,7 @@ function App() {
                 </div>
                 
                 {/* Duplicate set for continuous loop */}
-                <div className="flex space-x-12 items-center">
+                <div className="flex space-x-6 items-center">
                   <div className="flex-shrink-0 h-16 w-40 flex items-center justify-center">
                     <img src="https://iili.io/3pxisyb.webp" alt="Smart Diet Solutions" className="max-h-full max-w-full object-contain" />
                   </div>
