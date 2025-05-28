@@ -520,7 +520,7 @@ function App() {
                     <div className="text-sm text-neutral-600 font-light leading-snug">Low-carb snacks for fat-adapted diets</div>
                   </div>
                   <div className="flex items-center">
-                    <span className="bg-yellow-300 text-secondary-dark px-3 py-1 rounded-full text-sm font-medium mr-3 flex-shrink-0">Low Sweeteners</span>
+                    <span className="bg-yellow-300 text-secondary-dark px-3 py-1 rounded-full text-sm font-medium mr-3 flex-shrink-0">Low Artificial Sweeteners</span>
                     <div className="text-sm text-neutral-600 font-light leading-snug">Clean taste without the weird stuff</div>
                   </div>
                   <div className="flex items-center">
