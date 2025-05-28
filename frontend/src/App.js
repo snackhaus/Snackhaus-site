@@ -512,29 +512,26 @@ function App() {
                 </div>
                 <div className="grid grid-cols-1 gap-5">
                   <div className="flex items-center">
-                    <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-medium mr-3 flex-shrink-0">High-Protein</span>
+                    <span className="bg-blue-600 text-white px-3 py-1.5 rounded-full text-sm font-medium mr-3 flex-shrink-0 w-28 text-center">High-Protein</span>
                     <div className="text-sm text-neutral-600 font-light leading-snug">Builds and repairs muscle – ideal post-workout</div>
                   </div>
                   <div className="flex items-center">
-                    <span className="bg-orange-400 text-white px-3 py-1 rounded-full text-sm font-medium mr-3 flex-shrink-0">Keto Options</span>
+                    <span className="bg-orange-400 text-white px-3 py-1.5 rounded-full text-sm font-medium mr-3 flex-shrink-0 w-28 text-center">Keto Options</span>
                     <div className="text-sm text-neutral-600 font-light leading-snug">Low-carb snacks for fat-adapted diets</div>
                   </div>
                   <div className="flex items-center">
-                    <span className="bg-yellow-300 text-secondary-dark px-3 py-1.5 rounded-full text-sm font-medium mr-3 flex-shrink-0 flex flex-col leading-tight text-center">
+                    <span className="bg-yellow-300 text-secondary-dark px-3 py-1.5 rounded-full text-sm font-medium mr-3 flex-shrink-0 w-28 text-center flex flex-col leading-tight">
                       <span>Low Artificial</span>
                       <span>Sweeteners</span>
                     </span>
                     <div className="text-sm text-neutral-600 font-light leading-snug">Clean taste without the weird stuff</div>
                   </div>
                   <div className="flex items-center">
-                    <span className="bg-green-400 text-white px-3 py-1.5 rounded-full text-sm font-medium mr-3 flex-shrink-0 flex flex-col leading-tight text-center">
-                      <span>Vegan-</span>
-                      <span>Friendly</span>
-                    </span>
+                    <span className="bg-green-400 text-white px-3 py-1.5 rounded-full text-sm font-medium mr-3 flex-shrink-0 w-28 text-center">Vegan-Friendly</span>
                     <div className="text-sm text-neutral-600 font-light leading-snug">100% plant-based fuel</div>
                   </div>
                   <div className="flex items-center">
-                    <span className="bg-purple-400 text-white px-3 py-1 rounded-full text-sm font-medium mr-3 flex-shrink-0">Low-Sugar</span>
+                    <span className="bg-purple-400 text-white px-3 py-1.5 rounded-full text-sm font-medium mr-3 flex-shrink-0 w-28 text-center">Low-Sugar</span>
                     <div className="text-sm text-neutral-600 font-light leading-snug">Keeps energy stable without the crash</div>
                   </div>
                 </div>
