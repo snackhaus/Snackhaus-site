@@ -12,7 +12,7 @@ const SnackhausLogo = () => (
     <img 
       src="https://iili.io/3857L2s.png" 
       alt="Snackhaus Logo" 
-      className="h-60 md:h-60"
+      className="h-10 md:h-8"
     />
   </div>
 );
