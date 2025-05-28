@@ -491,45 +491,38 @@ function App() {
               </p>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-lg border border-primary/20">
-              <h3 className="text-xl font-bold mb-4 text-center">Snack Tag Key</h3>
-              <div className="grid grid-cols-1 gap-4">
-                <div className="flex items-center">
-                  <div className="w-4 h-4 rounded-full bg-blue-500 mr-3"></div>
-                  <div>
-                    <div className="font-semibold">High-Protein</div>
-                    <div className="text-sm text-neutral-600">Builds and repairs muscle – ideal post-workout</div>
+            <div className="bg-white p-6 rounded-2xl shadow-md border border-primary/20 transition-all hover:shadow-lg"
+              style={{ boxShadow: '0px 4px 12px rgba(0,0,0,0.05)' }}>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, ease: "easeOut" }}
+                viewport={{ once: true }}
+              >
+                <h3 className="text-xl font-bold mb-6 text-center">Snack Tag Key</h3>
+                <div className="grid grid-cols-1 gap-5">
+                  <div className="flex items-center">
+                    <span className="bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-medium mr-3 flex-shrink-0">High-Protein</span>
+                    <div className="text-sm text-neutral-600 font-light">Builds and repairs muscle – ideal post-workout</div>
+                  </div>
+                  <div className="flex items-center">
+                    <span className="bg-orange-500 text-white px-3 py-1 rounded-full text-sm font-medium mr-3 flex-shrink-0">Keto Options</span>
+                    <div className="text-sm text-neutral-600 font-light">Low-carb snacks for fat-adapted diets</div>
+                  </div>
+                  <div className="flex items-center">
+                    <span className="bg-yellow-400 text-secondary-dark px-3 py-1 rounded-full text-sm font-medium mr-3 flex-shrink-0">Low Artificial</span>
+                    <div className="text-sm text-neutral-600 font-light">Clean taste without the weird stuff</div>
+                  </div>
+                  <div className="flex items-center">
+                    <span className="bg-green-500 text-white px-3 py-1 rounded-full text-sm font-medium mr-3 flex-shrink-0">Vegan-Friendly</span>
+                    <div className="text-sm text-neutral-600 font-light">100% plant-based fuel</div>
+                  </div>
+                  <div className="flex items-center">
+                    <span className="bg-purple-500 text-white px-3 py-1 rounded-full text-sm font-medium mr-3 flex-shrink-0">Low-Sugar</span>
+                    <div className="text-sm text-neutral-600 font-light">Keeps energy stable without the crash</div>
                   </div>
                 </div>
-                <div className="flex items-center">
-                  <div className="w-4 h-4 rounded-full bg-orange-500 mr-3"></div>
-                  <div>
-                    <div className="font-semibold">Keto Options</div>
-                    <div className="text-sm text-neutral-600">Low-carb snacks for fat-adapted diets</div>
-                  </div>
-                </div>
-                <div className="flex items-center">
-                  <div className="w-4 h-4 rounded-full bg-yellow-400 mr-3"></div>
-                  <div>
-                    <div className="font-semibold">Low Artificial Sweeteners</div>
-                    <div className="text-sm text-neutral-600">Clean taste without the weird stuff</div>
-                  </div>
-                </div>
-                <div className="flex items-center">
-                  <div className="w-4 h-4 rounded-full bg-green-500 mr-3"></div>
-                  <div>
-                    <div className="font-semibold">Vegan-Friendly</div>
-                    <div className="text-sm text-neutral-600">100% plant-based fuel</div>
-                  </div>
-                </div>
-                <div className="flex items-center">
-                  <div className="w-4 h-4 rounded-full bg-purple-500 mr-3"></div>
-                  <div>
-                    <div className="font-semibold">Low-Sugar</div>
-                    <div className="text-sm text-neutral-600">Keeps energy stable without the crash</div>
-                  </div>
-                </div>
-              </div>
+              </motion.div>
             </div>
           </div>
           
