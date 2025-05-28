@@ -499,7 +499,15 @@ function App() {
                 transition={{ duration: 0.6, ease: "easeOut" }}
                 viewport={{ once: true }}
               >
-                <h3 className="text-xl font-bold mb-6 text-center">Snack Tag Key</h3>
+                <h3 className="text-xl font-bold mb-6 text-center relative inline-block group">
+                  Snack Tag Key
+                  <div className="absolute opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white p-2 rounded shadow-md text-xs text-neutral-700 w-64 -top-2 -right-64 pointer-events-none">
+                    Snack tags are shown on the cooler LED screen under each product.
+                  </div>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4 inline-block ml-1 text-neutral-500">
+                    <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zM8.94 6.94a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm-.75 3a.75.75 0 100 1.5.75.75 0 000-1.5z" clipRule="evenodd" />
+                  </svg>
+                </h3>
                 <div className="grid grid-cols-1 gap-5">
                   <div className="flex items-center">
                     <span className="bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-medium mr-3 flex-shrink-0">High-Protein</span>
