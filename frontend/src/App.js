@@ -319,7 +319,7 @@ function App() {
       <AnimatedSection id="why-snackhaus" className="section-padding bg-secondary-dark scroll-mt-32">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl mb-6 text-white">More Revenue. Better Snacks. Zero Maintenance.</h2>
+            <h2 className="text-4xl md:text-5xl mb-6 text-white">More Revenue. Better Snacks. Zero Effort.</h2>
           </div>
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
