@@ -212,8 +212,7 @@ function App() {
               snackhaus is a next-gen, AI-powered fridge designed for modern fitness spaces.
             </p>
             <p className="text-xl text-neutral-800 max-w-3xl mx-auto mb-4">
-              It uses smart sensors and cameras to let your members tap, grab, and go - no buttons,
-              no queues, no staff required.
+              It uses smart sensors, cameras and weight tracking monitors to let your members tap, grab, and go - no buttons, no queues, no staff required.
             </p>
             <p className="text-xl text-neutral-800 max-w-3xl mx-auto">
               We handle everything: installation, stocking, payments, tracking and restocks. You just provide the space.
