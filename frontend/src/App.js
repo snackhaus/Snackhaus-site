@@ -276,8 +276,8 @@ function App() {
                 <div className="flex justify-center mb-4">
                   <span className="text-4xl">🤖</span>
                 </div>
-                <h4 className="text-xl font-bold mb-3 text-primary">Not Vending — Just Tap, Grab, and Go</h4>
-                <p className="text-white/90 text-sm leading-relaxed">
+                <h4 className="text-xl font-bold mb-3 text-secondary-dark">Not Vending — Just Tap, Grab, and Go</h4>
+                <p className="text-gray-700 text-sm leading-relaxed">
                   This isn't a vending machine. Members unlock the cooler, grab what they want, and walk away. No buttons, no queues, no staff — AI handles everything automatically.
                 </p>
               </div>
@@ -286,8 +286,8 @@ function App() {
                 <div className="flex justify-center mb-4">
                   <span className="text-4xl">🚚</span>
                 </div>
-                <h4 className="text-xl font-bold mb-3 text-primary">Fully Managed — Zero Operational Load</h4>
-                <p className="text-white/90 text-sm leading-relaxed">
+                <h4 className="text-xl font-bold mb-3 text-secondary-dark">Fully Managed — Zero Operational Load</h4>
+                <p className="text-gray-700 text-sm leading-relaxed">
                   We install, stock, monitor, and maintain the cooler. No admin, no training, no inventory headaches. You just provide the space.
                 </p>
               </div>
@@ -296,8 +296,8 @@ function App() {
                 <div className="flex justify-center mb-4">
                   <span className="text-4xl">💸</span>
                 </div>
-                <h4 className="text-xl font-bold mb-3 text-primary">Earn Passive Income — Sales + Ad Revenue</h4>
-                <p className="text-white/90 text-sm leading-relaxed">
+                <h4 className="text-xl font-bold mb-3 text-secondary-dark">Earn Passive Income — Sales + Ad Revenue</h4>
+                <p className="text-gray-700 text-sm leading-relaxed">
                   Profit from every snack sold and from digital in-fridge advertising. No upfront costs. Just passive income from space you already have.
                 </p>
               </div>
@@ -306,8 +306,8 @@ function App() {
                 <div className="flex justify-center mb-4">
                   <span className="text-4xl">🧃</span>
                 </div>
-                <h4 className="text-xl font-bold mb-3 text-primary">Curated Products — Health-First, Brand-Aligned</h4>
-                <p className="text-white/90 text-sm leading-relaxed">
+                <h4 className="text-xl font-bold mb-3 text-secondary-dark">Curated Products — Health-First, Brand-Aligned</h4>
+                <p className="text-gray-700 text-sm leading-relaxed">
                   Every item is handpicked by nutrition experts to suit premium fitness spaces. Clean ingredients, functional benefits — no junk, no compromises.
                 </p>
               </div>
