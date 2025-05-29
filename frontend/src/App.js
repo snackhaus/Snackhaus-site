@@ -261,7 +261,7 @@ function App() {
                 </div>
                 <h4 className="text-2xl font-bold mb-3">Go</h4>
                 <p className="text-neutral-700">
-                  Just close the door and walk away — we'll charge you automatically.
+                  Just close the door and walk away. We'll charge you automatically.
                 </p>
               </div>
             </div>
