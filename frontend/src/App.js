@@ -132,16 +132,16 @@ function App() {
           
           {/* Navigation links on the right */}
           <div className="flex gap-6">
-            <a href="#how-it-works" className="text-white hover:text-primary transition-colors text-sm">
+            <a href="#how-it-works" className="text-white hover:text-primary transition-colors text-base">
               How It Works
             </a>
-            <a href="#why-snackhaus" className="text-white hover:text-primary transition-colors text-sm">
+            <a href="#why-snackhaus" className="text-white hover:text-primary transition-colors text-base">
               Our Coolers
             </a>
-            <a href="#" className="text-white hover:text-primary transition-colors text-sm">
-              FAQ
+            <a href="#" className="text-white hover:text-primary transition-colors text-base">
+              The Food Difference
             </a>
-            <a href="#get-started" className="text-white hover:text-primary transition-colors text-sm">
+            <a href="#get-started" className="text-white hover:text-primary transition-colors text-base">
               Contact
             </a>
           </div>
