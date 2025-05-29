@@ -149,7 +149,7 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-16 md:pt-16 relative h-screen overflow-hidden">
+      <section className="pt-20 md:pt-20 relative h-screen overflow-hidden">
         {/* Full-screen background image */}
         <div className="absolute inset-0">
           <img 
@@ -160,35 +160,14 @@ function App() {
           <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         </div>
         
-        {/* Centered Logo */}
-        <div className="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
-          <img 
-            src="https://iili.io/3857L2s.png" 
-            alt="Snackhaus Logo" 
-            className="h-60 md:h-48"
-          />
-        </div>
-        
-        {/* Text on left side of the cooler */}
-        <div className="absolute top-1/3 left-20 z-20 text-primary font-medium text-3xl md:text-4xl lg:text-5xl leading-tight hidden md:block">
-          <div>Fuel</div>
-          <div>better</div>
-          <div>wherever</div>
-          <div>you are</div>
-        </div>
-        
-        {/* Website URL at bottom left */}
-        <div className="absolute bottom-16 left-20 z-20 text-primary font-medium">
-          <span>snackhaus.com.au</span>
-        </div>
-        
         {/* Content overlay */}
         <div className="relative h-full container-custom flex items-center pt-20 md:pt-0">
           <div className="md:grid md:grid-cols-12 w-full">
-            <div className="md:col-span-7"></div> {/* Increased empty space to push content further right */}
-            <div className="md:col-span-5 text-white px-4 md:px-0">
+            {/* Increased empty space to push content further right and avoid covering cooler */}
+            <div className="md:col-span-8"></div>
+            <div className="md:col-span-4 text-white px-4 md:px-0">
               <motion.h1 
-                className="text-5xl md:text-6xl lg:text-7xl font-bold mb-4"
+                className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4"
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
@@ -198,7 +177,7 @@ function App() {
               </motion.h1>
               
               <motion.p 
-                className="text-lg md:text-xl mb-8 text-white/90 max-w-xl"
+                className="text-lg md:text-xl mb-8 text-white/90 max-w-lg"
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.4 }}
