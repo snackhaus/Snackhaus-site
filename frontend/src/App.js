@@ -155,9 +155,9 @@ function App() {
           <img 
             src="https://iili.io/3vMYhBI.jpg" 
             alt="Snackhaus Smart Cooler" 
-            className="w-full h-full object-cover object-[center_25%]"
+            className="w-full h-full object-cover object-[30%_25%]"
           />
-          <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+          <div className="absolute inset-0 bg-black bg-opacity-20"></div>
         </div>
         
         {/* Content overlay */}
