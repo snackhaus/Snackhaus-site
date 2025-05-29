@@ -220,7 +220,7 @@ function App() {
           </div>
           
           <div className="mt-20">
-            <h3 className="text-3xl text-center mb-12">How it works</h3>
+            <h3 className="text-3xl text-center mb-12">How It Works</h3>
             
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
@@ -233,7 +233,7 @@ function App() {
                 </div>
                 <h4 className="text-2xl font-bold mb-3">Tap</h4>
                 <p className="text-neutral-700">
-                  Unlock the snackhaus cooler instantly with your phone or card. A pre-auth is taken, just like rideshare.
+                  Unlock the cooler with your phone or card. Just like rideshare, we take a pre-auth.
                 </p>
               </div>
               
@@ -247,7 +247,7 @@ function App() {
                 </div>
                 <h4 className="text-2xl font-bold mb-3">Grab</h4>
                 <p className="text-neutral-700">
-                  Grab snacks that support performance, energy, and recovery. Everything is curated with care.
+                  Choose high-performance snacks curated by nutrition experts for energy, recovery, and clean fuel.
                 </p>
               </div>
               
@@ -261,7 +261,7 @@ function App() {
                 </div>
                 <h4 className="text-2xl font-bold mb-3">Go</h4>
                 <p className="text-neutral-700">
-                  Just close the door and walk away. We'll charge you automatically.
+                  Close the door and walk away. We'll charge you automatically.
                 </p>
               </div>
             </div>
