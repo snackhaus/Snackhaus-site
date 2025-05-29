@@ -391,8 +391,16 @@ function App() {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl mb-6">No Junk. All Function.</h2>
             <p className="text-xl text-neutral-800 max-w-3xl mx-auto mb-6">
-              This isn't vending with a health label slapped on.
-              Snackhaus is a fully curated selection of functional snacks, designed by nutrition experts — not distributors.
+              This isn't vending with a health label slapped on. Snackhaus is a curated collection of high-function snacks, designed by experts, not distributors.
+            </p>
+            <p className="text-xl text-neutral-800 max-w-3xl mx-auto mb-6">
+              Every item supports energy, hydration, or recovery. Color-coded snack tags appear right on the cooler's LED shelves so members can make the right choice in seconds.
+            </p>
+            <p className="text-xl text-neutral-800 max-w-3xl mx-auto mb-6">
+              Whether it's post-workout protein or low-sugar fuel between meetings, finding the right snack is easy.
+            </p>
+            <p className="text-xl font-semibold text-secondary-dark max-w-3xl mx-auto">
+              Curated for performance. Stocked to sell.
             </p>
           </div>
           
