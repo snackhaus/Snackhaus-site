@@ -122,11 +122,11 @@ function App() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-secondary-dark border-b border-primary/10 h-32">
         <div className="container-custom h-full flex justify-between items-center px-4">
           {/* Logo on the left */}
-          <div className="flex items-center">
+          <div className="flex items-center -ml-8">
             <img 
               src="https://iili.io/3ps6JMF.png" 
               alt="Snackhaus Logo" 
-              className="h-96 md:h-[28rem]"
+              className="h-20 md:h-24"
             />
           </div>
           
