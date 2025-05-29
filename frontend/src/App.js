@@ -530,7 +530,7 @@ function App() {
       </AnimatedSection>
 
       {/* Contact Form Section */}
-      <AnimatedSection id="get-started" className="section-padding bg-secondary-dark">
+      <AnimatedSection id="get-started" className="section-padding bg-secondary-dark scroll-mt-32">
         <div className="container-custom">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
