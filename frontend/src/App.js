@@ -404,22 +404,7 @@ function App() {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-10 mb-16 max-w-6xl mx-auto">
-            <div>
-              <h3 className="text-2xl font-bold mb-4">Every product supports energy, recovery, or hydration.</h3>
-              <p className="text-lg text-neutral-700 mb-4">
-                We label everything with clear, color-coded tags so you can make better snack decisions in seconds.
-                Whether you want clean protein after a workout or low-sugar fuel between meetings, it's easy to grab what's right for you.
-              </p>
-              <p className="text-lg text-neutral-700 mb-6">
-                Snack tags appear directly on the smart cooler's LED shelf display, beneath each product — helping users instantly identify what suits their needs.
-              </p>
-              
-              <p className="text-xl font-semibold text-secondary mt-6">
-                Curated for performance. Stocked to sell.
-              </p>
-            </div>
-            
+          <div className="max-w-4xl mx-auto">
             <div className="bg-white p-6 rounded-2xl shadow-md border border-primary/20 transition-all hover:shadow-lg"
               style={{ boxShadow: '0px 4px 12px rgba(0,0,0,0.05)' }}>
               <motion.div
