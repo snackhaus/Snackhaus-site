@@ -391,13 +391,13 @@ function App() {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl mb-6">No Junk. All Function.</h2>
             <p className="text-xl text-neutral-800 max-w-3xl mx-auto mb-6">
-              This isn't vending with a health label slapped on. Snackhaus is a curated collection of high-function snacks, designed by experts, not distributors.
+              Snackhaus is not just vending. It's a curated selection of performance snacks designed by experts, not distributors.
             </p>
             <p className="text-xl text-neutral-800 max-w-3xl mx-auto mb-6">
-              Every item supports energy, hydration, or recovery. Color-coded snack tags appear right on the cooler's LED shelves so members can make the right choice in seconds.
+              Every product supports energy, hydration, or recovery — with clear, color-coded tags on the cooler so your members can make the right choice in seconds.
             </p>
             <p className="text-xl text-neutral-800 max-w-3xl mx-auto mb-6">
-              Whether it's post-workout protein or low-sugar fuel between meetings, finding the right snack is easy.
+              Whether it's post-workout protein or low-sugar fuel between meetings, finding the right snack is effortless.
             </p>
             <p className="text-xl font-semibold text-secondary-dark max-w-3xl mx-auto">
               Curated for performance. Stocked to sell.
@@ -405,17 +405,18 @@ function App() {
           </div>
           
           <div className="max-w-5xl mx-auto text-center mb-16">
-            <p className="text-lg text-neutral-800 max-w-3xl mx-auto mb-12">
-              Every item in our smart coolers is carefully selected to fuel performance and support your fitness goals. We believe in transparency - that's why every product is clearly labeled with nutritional categories.
+            <h3 className="text-2xl font-bold text-secondary-dark mb-4">Snack Tags</h3>
+            <p className="text-lg text-neutral-800 mb-8">
+              Displayed on the cooler shelf display beneath each product:
             </p>
             
             <div className="flex flex-wrap justify-center gap-4 mb-16">
-              <span className="bg-green-500 text-white px-6 py-3 rounded-full text-base font-medium">Protein Bar</span>
+              <span className="bg-red-500 text-white px-6 py-3 rounded-full text-base font-medium">High Protein</span>
               <span className="bg-blue-500 text-white px-6 py-3 rounded-full text-base font-medium">Organic</span>
               <span className="bg-purple-500 text-white px-6 py-3 rounded-full text-base font-medium">Gluten Free</span>
-              <span className="bg-green-600 text-white px-6 py-3 rounded-full text-base font-medium">Vegan</span>
+              <span className="bg-green-500 text-white px-6 py-3 rounded-full text-base font-medium">Vegan</span>
               <span className="bg-orange-500 text-white px-6 py-3 rounded-full text-base font-medium">Low Sugar</span>
-              <span className="bg-red-500 text-white px-6 py-3 rounded-full text-base font-medium">High Fiber</span>
+              <span className="bg-yellow-500 text-white px-6 py-3 rounded-full text-base font-medium">High Fiber</span>
             </div>
           </div>
           
