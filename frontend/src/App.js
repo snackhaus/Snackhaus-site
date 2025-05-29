@@ -297,7 +297,7 @@ function App() {
                 </div>
                 <h4 className="text-xl font-bold mb-3 text-secondary-dark">Not Vending: A Frictionless Member Experience</h4>
                 <p className="text-gray-700 text-sm leading-relaxed">
-                  Forget clunky machines and queues. snackhaus offers a seamless, self-serve experience your members will love. It makes your space feel smarter, more premium, and hassle-free.
+                  Forget clunky machines, breakdowns, and queues. snackhaus offers a seamless, self-serve experience your members will love. It's reliable, always stocked, and makes your space feel smarter, more premium, and hassle-free.
                 </p>
               </div>
               
