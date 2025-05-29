@@ -233,7 +233,7 @@ function App() {
                 </div>
                 <h4 className="text-2xl font-bold mb-3">Tap</h4>
                 <p className="text-neutral-700">
-                  Unlock the snackhaus cooler instantly with your phone or card — a pre-auth is taken, just like rideshare.
+                  Unlock the snackhaus cooler instantly with your phone or card. A pre-auth is taken, just like rideshare.
                 </p>
               </div>
               
