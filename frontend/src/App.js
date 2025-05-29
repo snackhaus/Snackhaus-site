@@ -124,7 +124,7 @@ function App() {
           {/* Logo on the left */}
           <div className="flex items-center">
             <img 
-              src="https://iili.io/3vM1bql.png" 
+              src="https://freeimage.host/i/3psaDmP" 
               alt="Snackhaus Logo" 
               className="h-8"
             />
