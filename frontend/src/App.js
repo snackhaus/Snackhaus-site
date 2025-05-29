@@ -271,42 +271,45 @@ function App() {
           <div className="mt-24">
             <h3 className="text-3xl text-center mb-12">Feature Highlights</h3>
             
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="text-center p-6 bg-white/10 backdrop-blur-sm rounded-xl border border-primary/20 hover:border-primary/40 transition-all shadow-lg">
-                <div className="flex justify-center mb-5">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-12 h-12 text-primary">
-                    <path d="M11.47 1.72a.75.75 0 011.06 0l3 3a.75.75 0 01-1.06 1.06l-1.72-1.72V7.5h-1.5V4.06L9.53 5.78a.75.75 0 01-1.06-1.06l3-3zM11.25 7.5V15a.75.75 0 001.5 0V7.5h3.75a3 3 0 013 3v9a3 3 0 01-3 3h-9a3 3 0 01-3-3v-9a3 3 0 013-3h3.75z" />
-                  </svg>
+                <div className="flex justify-center mb-4">
+                  <span className="text-4xl">🤖</span>
                 </div>
-                <h4 className="text-xl font-bold mb-2">100% autonomous</h4>
+                <h4 className="text-xl font-bold mb-3 text-primary">Not Vending — Just Tap, Grab, and Go</h4>
+                <p className="text-white/90 text-sm leading-relaxed">
+                  This isn't a vending machine. Members unlock the cooler, grab what they want, and walk away. No buttons, no queues, no staff — AI handles everything automatically.
+                </p>
               </div>
               
               <div className="text-center p-6 bg-white/10 backdrop-blur-sm rounded-xl border border-primary/20 hover:border-primary/40 transition-all shadow-lg">
-                <div className="flex justify-center mb-5">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-12 h-12 text-primary">
-                    <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 6a.75.75 0 00-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 000-1.5h-3.75V6z" clipRule="evenodd" />
-                  </svg>
+                <div className="flex justify-center mb-4">
+                  <span className="text-4xl">🚚</span>
                 </div>
-                <h4 className="text-xl font-bold mb-2">24/7 operation</h4>
+                <h4 className="text-xl font-bold mb-3 text-primary">Fully Managed — Zero Operational Load</h4>
+                <p className="text-white/90 text-sm leading-relaxed">
+                  We install, stock, monitor, and maintain the cooler. No admin, no training, no inventory headaches. You just provide the space.
+                </p>
               </div>
               
               <div className="text-center p-6 bg-white/10 backdrop-blur-sm rounded-xl border border-primary/20 hover:border-primary/40 transition-all shadow-lg">
-                <div className="flex justify-center mb-5">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-12 h-12 text-primary">
-                    <path fillRule="evenodd" d="M2.25 13.5a8.25 8.25 0 018.25-8.25.75.75 0 01.75.75v6.75H18a.75.75 0 01.75.75 8.25 8.25 0 01-16.5 0z" clipRule="evenodd" />
-                    <path fillRule="evenodd" d="M12.75 3a.75.75 0 01.75-.75 8.25 8.25 0 018.25 8.25.75.75 0 01-.75.75h-7.5a.75.75 0 01-.75-.75V3z" clipRule="evenodd" />
-                  </svg>
+                <div className="flex justify-center mb-4">
+                  <span className="text-4xl">💸</span>
                 </div>
-                <h4 className="text-xl font-bold mb-2">Remote tracking & real-time alerts</h4>
+                <h4 className="text-xl font-bold mb-3 text-primary">Earn Passive Income — Sales + Ad Revenue</h4>
+                <p className="text-white/90 text-sm leading-relaxed">
+                  Profit from every snack sold and from digital in-fridge advertising. No upfront costs. Just passive income from space you already have.
+                </p>
               </div>
               
               <div className="text-center p-6 bg-white/10 backdrop-blur-sm rounded-xl border border-primary/20 hover:border-primary/40 transition-all shadow-lg">
-                <div className="flex justify-center mb-5">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-12 h-12 text-primary">
-                    <path fillRule="evenodd" d="M9.401 3.003c1.155-2 4.043-2 5.197 0l7.355 12.748c1.154 2-.29 4.5-2.599 4.5H4.645c-2.309 0-3.752-2.5-2.598-4.5L9.4 3.003zM12 8.25a.75.75 0 01.75.75v3.75a.75.75 0 01-1.5 0V9a.75.75 0 01.75-.75zm0 8.25a.75.75 0 100-1.5.75.75 0 000 1.5z" clipRule="evenodd" />
-                  </svg>
+                <div className="flex justify-center mb-4">
+                  <span className="text-4xl">🧃</span>
                 </div>
-                <h4 className="text-xl font-bold mb-2">Zero admin required</h4>
+                <h4 className="text-xl font-bold mb-3 text-primary">Curated Products — Health-First, Brand-Aligned</h4>
+                <p className="text-white/90 text-sm leading-relaxed">
+                  Every item is handpicked by nutrition experts to suit premium fitness spaces. Clean ingredients, functional benefits — no junk, no compromises.
+                </p>
               </div>
             </div>
           </div>
