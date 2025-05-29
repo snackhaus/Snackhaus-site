@@ -126,7 +126,7 @@ function App() {
             <img 
               src="https://iili.io/3ps6JMF.png" 
               alt="Snackhaus Logo" 
-              className="h-12 md:h-14"
+              className="h-32 md:h-36"
             />
           </div>
           
