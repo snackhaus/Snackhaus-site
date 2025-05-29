@@ -273,29 +273,9 @@ function App() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="text-center p-6 bg-white/10 backdrop-blur-sm rounded-xl border-2 border-primary/40 hover:border-primary/60 transition-all shadow-lg">
                 <div className="flex justify-center mb-4">
-                  <span className="text-4xl">🤖</span>
-                </div>
-                <h4 className="text-xl font-bold mb-3 text-secondary-dark">Not Vending — A Frictionless Member Experience</h4>
-                <p className="text-gray-700 text-sm leading-relaxed">
-                  Forget clunky machines and queues. snackhaus offers a seamless, self-serve experience your members will love — making your space feel smarter, more premium, and hassle-free.
-                </p>
-              </div>
-              
-              <div className="text-center p-6 bg-white/10 backdrop-blur-sm rounded-xl border-2 border-primary/40 hover:border-primary/60 transition-all shadow-lg">
-                <div className="flex justify-center mb-4">
-                  <span className="text-4xl">🚚</span>
-                </div>
-                <h4 className="text-xl font-bold mb-3 text-secondary-dark">Fully Managed — Zero Operational Load</h4>
-                <p className="text-gray-700 text-sm leading-relaxed">
-                  We install, stock, monitor, and maintain the cooler. No admin, no training, no inventory headaches. You just provide the space.
-                </p>
-              </div>
-              
-              <div className="text-center p-6 bg-white/10 backdrop-blur-sm rounded-xl border-2 border-primary/40 hover:border-primary/60 transition-all shadow-lg">
-                <div className="flex justify-center mb-4">
                   <span className="text-4xl">💸</span>
                 </div>
-                <h4 className="text-xl font-bold mb-3 text-secondary-dark">Earn Passive Income — Sales + Ad Revenue</h4>
+                <h4 className="text-xl font-bold mb-3 text-secondary-dark">Earn Passive Income From Sales and Advertising</h4>
                 <p className="text-gray-700 text-sm leading-relaxed">
                   Profit from every snack sold and from digital in-fridge advertising. No upfront costs. Just passive income from space you already have.
                 </p>
@@ -303,11 +283,31 @@ function App() {
               
               <div className="text-center p-6 bg-white/10 backdrop-blur-sm rounded-xl border-2 border-primary/40 hover:border-primary/60 transition-all shadow-lg">
                 <div className="flex justify-center mb-4">
+                  <span className="text-4xl">🚚</span>
+                </div>
+                <h4 className="text-xl font-bold mb-3 text-secondary-dark">Fully Managed With Zero Operational Load</h4>
+                <p className="text-gray-700 text-sm leading-relaxed">
+                  We install, stock, monitor, and maintain the cooler. No admin, no training, no inventory headaches. You just provide the space.
+                </p>
+              </div>
+              
+              <div className="text-center p-6 bg-white/10 backdrop-blur-sm rounded-xl border-2 border-primary/40 hover:border-primary/60 transition-all shadow-lg">
+                <div className="flex justify-center mb-4">
+                  <span className="text-4xl">🤖</span>
+                </div>
+                <h4 className="text-xl font-bold mb-3 text-secondary-dark">Not Vending: A Frictionless Member Experience</h4>
+                <p className="text-gray-700 text-sm leading-relaxed">
+                  Forget clunky machines and queues. snackhaus offers a seamless, self-serve experience your members will love. It makes your space feel smarter, more premium, and hassle-free.
+                </p>
+              </div>
+              
+              <div className="text-center p-6 bg-white/10 backdrop-blur-sm rounded-xl border-2 border-primary/40 hover:border-primary/60 transition-all shadow-lg">
+                <div className="flex justify-center mb-4">
                   <span className="text-4xl">🧃</span>
                 </div>
-                <h4 className="text-xl font-bold mb-3 text-secondary-dark">Curated Products — Health-First, Brand-Aligned</h4>
+                <h4 className="text-xl font-bold mb-3 text-secondary-dark">Curated Products That Align With Your Brand</h4>
                 <p className="text-gray-700 text-sm leading-relaxed">
-                  Every item is handpicked by nutrition experts to suit premium fitness spaces. Clean ingredients, functional benefits — no junk, no compromises.
+                  Every item is handpicked by nutrition experts to suit premium fitness spaces. Clean ingredients and functional benefits. No junk, no compromises.
                 </p>
               </div>
             </div>
