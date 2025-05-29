@@ -120,7 +120,7 @@ function App() {
     <div className="App text-white">
       {/* Navbar */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-secondary-dark border-b border-primary/10">
-        <div className="container-custom py-1 flex justify-between items-center">
+        <div className="container-custom py-0.5 flex justify-between items-center">
           {/* Logo on the left */}
           <div className="flex items-center">
             <img 
