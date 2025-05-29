@@ -365,10 +365,6 @@ function App() {
               <p className="text-xl text-primary mt-8 font-semibold">
                 Snackhaus looks better, runs smarter, and earns more.
               </p>
-              
-              <p className="text-xl text-white/90 mt-8">
-                Snackhaus looks better, works smarter, and earns more — with zero effort from you.
-              </p>
             </div>
             
             <div className="relative order-first md:order-last">
