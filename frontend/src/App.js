@@ -138,7 +138,7 @@ function App() {
             <a href="#why-snackhaus" className="text-white hover:text-primary transition-colors text-base">
               Our Coolers
             </a>
-            <a href="#" className="text-white hover:text-primary transition-colors text-base">
+            <a href="#food-difference" className="text-white hover:text-primary transition-colors text-base">
               The Food Difference
             </a>
             <a href="#get-started" className="text-white hover:text-primary transition-colors text-base">
