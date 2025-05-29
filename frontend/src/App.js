@@ -276,9 +276,9 @@ function App() {
                 <div className="flex justify-center mb-4">
                   <span className="text-4xl">🤖</span>
                 </div>
-                <h4 className="text-xl font-bold mb-3 text-secondary-dark">Not Vending — Just Tap, Grab, and Go</h4>
+                <h4 className="text-xl font-bold mb-3 text-secondary-dark">Not Vending — A Frictionless Member Experience</h4>
                 <p className="text-gray-700 text-sm leading-relaxed">
-                  This isn't a vending machine. Members unlock the cooler, grab what they want, and walk away. No buttons, no queues, no staff — AI handles everything automatically.
+                  Forget clunky machines and queues. snackhaus offers a seamless, self-serve experience your members will love — making your space feel smarter, more premium, and hassle-free.
                 </p>
               </div>
               
