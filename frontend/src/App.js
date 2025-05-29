@@ -119,14 +119,14 @@ function App() {
   return (
     <div className="App text-white">
       {/* Navbar */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-secondary-dark border-b border-primary/10 h-16">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-secondary-dark border-b border-primary/10 h-24">
         <div className="container-custom h-full flex justify-between items-center px-4">
           {/* Logo on the left */}
           <div className="flex items-center">
             <img 
               src="https://iili.io/3ps6JMF.png" 
               alt="Snackhaus Logo" 
-              className="h-40 md:h-44"
+              className="h-16 md:h-20"
             />
           </div>
           
