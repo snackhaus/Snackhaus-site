@@ -207,15 +207,15 @@ function App() {
       <AnimatedSection id="how-it-works" className="section-padding bg-neutral-100 text-secondary scroll-mt-32">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl mb-6">Meet snackhaus, Your Gym's Smart Cooler</h2>
+            <h2 className="text-4xl md:text-5xl mb-6">Meet snackhaus: Your Gym's Smart Cooler</h2>
             <p className="text-xl text-neutral-800 max-w-3xl mx-auto mb-4">
-              snackhaus is a next-gen, AI-powered fridge designed for modern fitness spaces.
+              snackhaus is a next-gen, AI-powered fridge built for modern fitness spaces.
             </p>
             <p className="text-xl text-neutral-800 max-w-3xl mx-auto mb-4">
-              It uses smart sensors, cameras and weight tracking monitors to let your members tap, grab, and go - no buttons, no queues, no staff required.
+              Using smart sensors, cameras, and precision weight tracking, it lets your members tap, grab, and go. No buttons. No queues. No staff required.
             </p>
             <p className="text-xl text-neutral-800 max-w-3xl mx-auto">
-              We handle everything: installation, stocking, payments, tracking and restocks. You just provide the space.
+              We handle everything behind the scenes: install, restocks, payments, tracking, and maintenance. You simply provide the space.
             </p>
           </div>
           
