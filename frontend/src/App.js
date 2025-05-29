@@ -204,7 +204,7 @@ function App() {
       </section>
 
       {/* How It Works Section */}
-      <AnimatedSection id="how-it-works" className="section-padding bg-neutral-100 text-secondary">
+      <AnimatedSection id="how-it-works" className="section-padding bg-neutral-100 text-secondary scroll-mt-32">
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl mb-6">Meet snackhaus, Your Gym's Smart Cooler</h2>
