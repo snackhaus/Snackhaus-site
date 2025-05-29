@@ -389,97 +389,56 @@ function App() {
       <AnimatedSection id="food-difference" className="section-padding bg-neutral-100 text-secondary scroll-mt-32">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl mb-6">No Junk. All Function.</h2>
-            <p className="text-xl text-neutral-800 max-w-3xl mx-auto mb-6">
-              Snackhaus is not just vending. It's a curated selection of performance snacks designed by experts, not distributors.
-            </p>
-            <p className="text-xl text-neutral-800 max-w-3xl mx-auto mb-6">
-              Every product supports energy, hydration, or recovery — with clear, color-coded tags on the cooler so your members can make the right choice in seconds.
-            </p>
-            <p className="text-xl text-neutral-800 max-w-3xl mx-auto mb-6">
-              Whether it's post-workout protein or low-sugar fuel between meetings, finding the right snack is effortless.
-            </p>
-            <p className="text-xl font-semibold text-secondary-dark max-w-3xl mx-auto">
-              Curated for performance. Stocked to sell.
-            </p>
-          </div>
-          
-          <div className="max-w-5xl mx-auto text-center mb-16">
-            <h3 className="text-2xl font-bold text-secondary-dark mb-4">Snack Tags</h3>
-            <p className="text-lg text-neutral-800 mb-8">
-              Displayed on the cooler shelf display beneath each product:
-            </p>
-            
-            <div className="flex flex-wrap justify-center gap-4 mb-16">
-              <span className="bg-red-500 text-white px-6 py-3 rounded-full text-base font-medium">High Protein</span>
-              <span className="bg-blue-500 text-white px-6 py-3 rounded-full text-base font-medium">Organic</span>
-              <span className="bg-purple-500 text-white px-6 py-3 rounded-full text-base font-medium">Gluten Free</span>
-              <span className="bg-green-500 text-white px-6 py-3 rounded-full text-base font-medium">Vegan</span>
-              <span className="bg-orange-500 text-white px-6 py-3 rounded-full text-base font-medium">Low Sugar</span>
-              <span className="bg-yellow-500 text-white px-6 py-3 rounded-full text-base font-medium">High Fiber</span>
+            <h2 className="text-4xl md:text-5xl mb-8">No Junk. All Function.</h2>
+            <div className="max-w-4xl mx-auto">
+              <p className="text-xl text-neutral-800 leading-relaxed">
+                Snackhaus isn't just vending. It's a curated mix of snacks that fuel performance — chosen by experts, not distributors.<br />
+                Color-coded tags on the cooler make it easy to choose what fits your goals — from protein to plant-based, low sugar to high fiber.<br />
+                Stocked smart. Labeled clearly. Chosen fast.
+              </p>
             </div>
           </div>
           
-          <div className="mt-20">
-            <h3 className="text-2xl text-center mb-12 text-secondary-dark font-bold">Trusted Brands</h3>
+          {/* 2x3 Grid for Snack Tags */}
+          <div className="max-w-4xl mx-auto mb-20">
+            <div className="grid grid-cols-3 gap-6 mb-16">
+              <span className="bg-red-500 text-white px-6 py-4 rounded-full text-lg font-medium text-center">High Protein</span>
+              <span className="bg-blue-500 text-white px-6 py-4 rounded-full text-lg font-medium text-center">Organic</span>
+              <span className="bg-purple-500 text-white px-6 py-4 rounded-full text-lg font-medium text-center">Gluten Free</span>
+              <span className="bg-green-500 text-white px-6 py-4 rounded-full text-lg font-medium text-center">Vegan</span>
+              <span className="bg-orange-500 text-white px-6 py-4 rounded-full text-lg font-medium text-center">Low Sugar</span>
+              <span className="bg-yellow-500 text-white px-6 py-4 rounded-full text-lg font-medium text-center">High Fiber</span>
+            </div>
+          </div>
+          
+          {/* Trusted Brands Section */}
+          <div className="text-center">
+            <h3 className="text-3xl font-bold text-secondary-dark mb-12">Trusted Brands</h3>
             
-            <div className="relative overflow-hidden">
-              <div className="flex animate-carousel space-x-6 py-6">
-                {/* First set of logos */}
-                <div className="flex space-x-6 items-center">
-                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
-                    <img src="https://iili.io/3pxisyb.webp" alt="Smart Diet Solutions" className="max-h-full max-w-full object-contain" />
-                  </div>
-                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
-                    <img src="https://iili.io/3pxiX4t.webp" alt="Macro Mike" className="max-h-full max-w-full object-contain" />
-                  </div>
-                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
-                    <img src="https://iili.io/3pxizTx.webp" alt="Remedy" className="max-h-full max-w-full object-contain" />
-                  </div>
-                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
-                    <img src="https://iili.io/3pxidhl.webp" alt="YoPro" className="max-h-full max-w-full object-contain" />
-                  </div>
-                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
-                    <img src="https://iili.io/3px6uAx.webp" alt="Cocobella" className="max-h-full max-w-full object-contain" />
-                  </div>
-                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
-                    <img src="https://iili.io/3px4syv.webp" alt="Chief" className="max-h-full max-w-full object-contain" />
-                  </div>
-                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
-                    <img src="https://iili.io/3px6gDl.webp" alt="Fibre-Boost" className="max-h-full max-w-full object-contain" />
-                  </div>
-                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
-                    <img src="https://iili.io/3pxPOXV.webp" alt="Prana On" className="max-h-full max-w-full object-contain" />
-                  </div>
-                </div>
-                
-                {/* Duplicate set for continuous loop */}
-                <div className="flex space-x-6 items-center">
-                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
-                    <img src="https://iili.io/3pxisyb.webp" alt="Smart Diet Solutions" className="max-h-full max-w-full object-contain" />
-                  </div>
-                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
-                    <img src="https://iili.io/3pxiX4t.webp" alt="Macro Mike" className="max-h-full max-w-full object-contain" />
-                  </div>
-                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
-                    <img src="https://iili.io/3pxizTx.webp" alt="Remedy" className="max-h-full max-w-full object-contain" />
-                  </div>
-                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
-                    <img src="https://iili.io/3pxidhl.webp" alt="YoPro" className="max-h-full max-w-full object-contain" />
-                  </div>
-                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
-                    <img src="https://iili.io/3px6uAx.webp" alt="Cocobella" className="max-h-full max-w-full object-contain" />
-                  </div>
-                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
-                    <img src="https://iili.io/3px4syv.webp" alt="Chief" className="max-h-full max-w-full object-contain" />
-                  </div>
-                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
-                    <img src="https://iili.io/3px6gDl.webp" alt="Fibre-Boost" className="max-h-full max-w-full object-contain" />
-                  </div>
-                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
-                    <img src="https://iili.io/3pxPOXV.webp" alt="Prana On" className="max-h-full max-w-full object-contain" />
-                  </div>
-                </div>
+            <div className="flex flex-wrap justify-center items-center gap-8 max-w-6xl mx-auto">
+              <div className="flex-shrink-0 h-12 w-28 flex items-center justify-center">
+                <img src="https://iili.io/3pxizTx.webp" alt="Remedy" className="max-h-full max-w-full object-contain opacity-70 hover:opacity-100 transition-opacity" />
+              </div>
+              <div className="flex-shrink-0 h-12 w-28 flex items-center justify-center">
+                <img src="https://iili.io/3pxi67n.webp" alt="YoPRO" className="max-h-full max-w-full object-contain opacity-70 hover:opacity-100 transition-opacity" />
+              </div>
+              <div className="flex-shrink-0 h-12 w-28 flex items-center justify-center">
+                <img src="https://iili.io/3pxiCVf.webp" alt="Cocobella" className="max-h-full max-w-full object-contain opacity-70 hover:opacity-100 transition-opacity" />
+              </div>
+              <div className="flex-shrink-0 h-12 w-28 flex items-center justify-center">
+                <img src="https://iili.io/3pxiPQI.webp" alt="Chief" className="max-h-full max-w-full object-contain opacity-70 hover:opacity-100 transition-opacity" />
+              </div>
+              <div className="flex-shrink-0 h-12 w-28 flex items-center justify-center">
+                <img src="https://iili.io/3pxilHv.webp" alt="Fibre Boost" className="max-h-full max-w-full object-contain opacity-70 hover:opacity-100 transition-opacity" />
+              </div>
+              <div className="flex-shrink-0 h-12 w-28 flex items-center justify-center">
+                <img src="https://iili.io/3pxi1Qj.webp" alt="Prana On" className="max-h-full max-w-full object-contain opacity-70 hover:opacity-100 transition-opacity" />
+              </div>
+              <div className="flex-shrink-0 h-12 w-28 flex items-center justify-center">
+                <img src="https://iili.io/3pxisyb.webp" alt="Smart Diet Solutions" className="max-h-full max-w-full object-contain opacity-70 hover:opacity-100 transition-opacity" />
+              </div>
+              <div className="flex-shrink-0 h-12 w-28 flex items-center justify-center">
+                <img src="https://iili.io/3pxiAvR.webp" alt="Pana Organic" className="max-h-full max-w-full object-contain opacity-70 hover:opacity-100 transition-opacity" />
               </div>
             </div>
           </div>
