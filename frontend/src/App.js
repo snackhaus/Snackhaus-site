@@ -404,57 +404,23 @@ function App() {
             </p>
           </div>
           
-          <div className="max-w-4xl mx-auto">
-            <div className="bg-white p-6 rounded-2xl shadow-md border border-primary/20 transition-all hover:shadow-lg"
-              style={{ boxShadow: '0px 4px 12px rgba(0,0,0,0.05)' }}>
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, ease: "easeOut" }}
-                viewport={{ once: true }}
-              >
-                <div className="text-center mb-6">
-                  <h3 className="text-xl font-bold inline-block relative group">
-                    Snack Tag Key
-                    <div className="absolute opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white p-2 rounded shadow-md text-xs text-neutral-700 w-64 -top-8 left-1/2 transform -translate-x-1/2 pointer-events-none">
-                      Displayed directly under each product on the cooler screen
-                    </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4 inline-block ml-1 text-neutral-500">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v.5a.5.5 0 01-.5.5.5.5 0 01-.5-.5V7a1 1 0 012 0v.5a.5.5 0 01-.5.5.5.5 0 01-.5-.5V7zm-1 4a1 1 0 100-2 1 1 0 000 2z" clipRule="evenodd" />
-                    </svg>
-                  </h3>
-                </div>
-                <div className="grid grid-cols-1 gap-5">
-                  <div className="flex items-center">
-                    <span className="bg-blue-600 text-white px-3 py-1.5 rounded-full text-sm font-medium mr-3 flex-shrink-0 w-28 text-center">High-Protein</span>
-                    <div className="text-sm text-neutral-600 font-light leading-snug">Builds and repairs muscle post-training</div>
-                  </div>
-                  <div className="flex items-center">
-                    <span className="bg-orange-400 text-white px-3 py-1.5 rounded-full text-sm font-medium mr-3 flex-shrink-0 w-28 text-center">Keto Options</span>
-                    <div className="text-sm text-neutral-600 font-light leading-snug">Low-carb fuel for fat-adapted diets</div>
-                  </div>
-                  <div className="flex items-center">
-                    <span className="bg-yellow-300 text-secondary-dark px-3 py-1.5 rounded-full text-sm font-medium mr-3 flex-shrink-0 w-28 text-center flex flex-col leading-tight">
-                      <span>Low Artificial</span>
-                      <span>Sweeteners</span>
-                    </span>
-                    <div className="text-sm text-neutral-600 font-light leading-snug">Clean taste without compromise</div>
-                  </div>
-                  <div className="flex items-center">
-                    <span className="bg-green-400 text-white px-3 py-1.5 rounded-full text-sm font-medium mr-3 flex-shrink-0 w-28 text-center">Vegan-Friendly</span>
-                    <div className="text-sm text-neutral-600 font-light leading-snug">100% plant-based options</div>
-                  </div>
-                  <div className="flex items-center">
-                    <span className="bg-purple-400 text-white px-3 py-1.5 rounded-full text-sm font-medium mr-3 flex-shrink-0 w-28 text-center">Low-Sugar</span>
-                    <div className="text-sm text-neutral-600 font-light leading-snug">Stable energy without the crash</div>
-                  </div>
-                </div>
-              </motion.div>
+          <div className="max-w-5xl mx-auto text-center mb-16">
+            <p className="text-lg text-neutral-800 max-w-3xl mx-auto mb-12">
+              Every item in our smart coolers is carefully selected to fuel performance and support your fitness goals. We believe in transparency - that's why every product is clearly labeled with nutritional categories.
+            </p>
+            
+            <div className="flex flex-wrap justify-center gap-4 mb-16">
+              <span className="bg-green-500 text-white px-6 py-3 rounded-full text-base font-medium">Protein Bar</span>
+              <span className="bg-blue-500 text-white px-6 py-3 rounded-full text-base font-medium">Organic</span>
+              <span className="bg-purple-500 text-white px-6 py-3 rounded-full text-base font-medium">Gluten Free</span>
+              <span className="bg-green-600 text-white px-6 py-3 rounded-full text-base font-medium">Vegan</span>
+              <span className="bg-orange-500 text-white px-6 py-3 rounded-full text-base font-medium">Low Sugar</span>
+              <span className="bg-red-500 text-white px-6 py-3 rounded-full text-base font-medium">High Fiber</span>
             </div>
           </div>
           
           <div className="mt-20">
-            <h3 className="text-2xl text-center mb-8">Some of the brands we stock:</h3>
+            <h3 className="text-2xl text-center mb-12 text-secondary-dark font-bold">Trusted Brands</h3>
             
             <div className="relative overflow-hidden">
               <div className="flex animate-carousel space-x-6 py-6">
