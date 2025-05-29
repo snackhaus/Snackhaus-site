@@ -155,7 +155,7 @@ function App() {
           <img 
             src="https://iili.io/3vMYhBI.jpg" 
             alt="Snackhaus Smart Cooler" 
-            className="w-full h-full object-cover object-[85%_25%]"
+            className="w-full h-full object-cover object-[85%_10%]"
           />
           <div className="absolute inset-0 bg-black bg-opacity-20"></div>
         </div>
