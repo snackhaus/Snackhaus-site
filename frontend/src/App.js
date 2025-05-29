@@ -120,13 +120,13 @@ function App() {
     <div className="App text-white">
       {/* Navbar */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-secondary-dark border-b border-primary/10">
-        <div className="container-custom py-0.5 flex justify-between items-center min-h-[60px]">
+        <div className="container-custom py-2 flex justify-between items-center">
           {/* Logo on the left */}
           <div className="flex items-center">
             <img 
-              src="https://iili.io/3psaDmP.png" 
+              src="https://iili.io/3ps6JMF.png" 
               alt="Snackhaus Logo" 
-              className="h-32 md:h-40"
+              className="h-12"
             />
           </div>
           
