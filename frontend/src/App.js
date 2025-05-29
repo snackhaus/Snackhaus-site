@@ -325,44 +325,46 @@ function App() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-xl text-white/90 mb-8">
-                Snackhaus smart coolers are built to outperform traditional vending — without the headaches.
-                Smarter tech, real-time data, and a curated product mix help Snackhaus generate 2–3x more revenue than typical vending machines.
+                Snackhaus smart coolers generate 2 to 3 times more revenue than traditional vending.
+                It's not just the snacks. It's the tech, the experience, and the seamless backend.
               </p>
-              
-              <h3 className="text-2xl text-primary mb-6">Why it works:</h3>
               
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1 mr-3" />
                   <p className="text-white/90 text-lg">
-                    Smart sensors, cameras, and weight tracking monitor every product in real time — with precision
+                    AI sensors and weight tracking = real-time accuracy
                   </p>
                 </li>
                 <li className="flex items-start">
                   <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1 mr-3" />
                   <p className="text-white/90 text-lg">
-                    Frictionless, touch-free UX — no buttons, no jams, works 24/7
+                    Touch-free UX = always on, always smooth
                   </p>
                 </li>
                 <li className="flex items-start">
                   <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1 mr-3" />
                   <p className="text-white/90 text-lg">
-                    Built-in screen for advertising = optional second income stream
+                    Built-in ad screen = optional second income stream
                   </p>
                 </li>
                 <li className="flex items-start">
                   <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1 mr-3" />
                   <p className="text-white/90 text-lg">
-                    LED halo + premium design attracts attention and elevates your space
+                    LED halo and sleek design = attention-grabbing presence
                   </p>
                 </li>
                 <li className="flex items-start">
                   <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1 mr-3" />
                   <p className="text-white/90 text-lg">
-                    We handle everything — install, stock, monitor, and maintain
+                    Zero effort required from you
                   </p>
                 </li>
               </ul>
+              
+              <p className="text-xl text-primary mt-8 font-semibold">
+                Snackhaus looks better, runs smarter, and earns more.
+              </p>
               
               <p className="text-xl text-white/90 mt-8">
                 Snackhaus looks better, works smarter, and earns more — with zero effort from you.
