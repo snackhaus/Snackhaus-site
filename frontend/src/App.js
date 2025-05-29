@@ -272,7 +272,7 @@ function App() {
             <h3 className="text-3xl text-center mb-12">Feature Highlights</h3>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="text-center p-6 bg-white/10 backdrop-blur-sm rounded-xl border border-primary/20 hover:border-primary/40 transition-all shadow-lg">
+              <div className="text-center p-6 bg-white/10 backdrop-blur-sm rounded-xl border-2 border-primary/40 hover:border-primary/60 transition-all shadow-lg">
                 <div className="flex justify-center mb-4">
                   <span className="text-4xl">🤖</span>
                 </div>
@@ -282,7 +282,7 @@ function App() {
                 </p>
               </div>
               
-              <div className="text-center p-6 bg-white/10 backdrop-blur-sm rounded-xl border border-primary/20 hover:border-primary/40 transition-all shadow-lg">
+              <div className="text-center p-6 bg-white/10 backdrop-blur-sm rounded-xl border-2 border-primary/40 hover:border-primary/60 transition-all shadow-lg">
                 <div className="flex justify-center mb-4">
                   <span className="text-4xl">🚚</span>
                 </div>
@@ -292,7 +292,7 @@ function App() {
                 </p>
               </div>
               
-              <div className="text-center p-6 bg-white/10 backdrop-blur-sm rounded-xl border border-primary/20 hover:border-primary/40 transition-all shadow-lg">
+              <div className="text-center p-6 bg-white/10 backdrop-blur-sm rounded-xl border-2 border-primary/40 hover:border-primary/60 transition-all shadow-lg">
                 <div className="flex justify-center mb-4">
                   <span className="text-4xl">💸</span>
                 </div>
@@ -302,7 +302,7 @@ function App() {
                 </p>
               </div>
               
-              <div className="text-center p-6 bg-white/10 backdrop-blur-sm rounded-xl border border-primary/20 hover:border-primary/40 transition-all shadow-lg">
+              <div className="text-center p-6 bg-white/10 backdrop-blur-sm rounded-xl border-2 border-primary/40 hover:border-primary/60 transition-all shadow-lg">
                 <div className="flex justify-center mb-4">
                   <span className="text-4xl">🧃</span>
                 </div>
