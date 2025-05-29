@@ -389,7 +389,7 @@ function App() {
       </AnimatedSection>
 
       {/* No Junk. All Function. Section */}
-      <AnimatedSection className="section-padding bg-neutral-100 text-secondary">
+      <AnimatedSection id="food-difference" className="section-padding bg-neutral-100 text-secondary scroll-mt-32">
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl mb-6">No Junk. All Function.</h2>
