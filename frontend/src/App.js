@@ -121,7 +121,7 @@ function App() {
     <div className="App text-white">
       {/* Navbar */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-secondary-dark border-b border-primary/10 h-20 md:h-32">
-        <div className="container-custom h-full flex justify-between items-center px-1 md:px-4">
+        <div className="container-custom h-full flex justify-between items-center px-4">
           {/* Logo on the left */}
           <div className="flex items-center flex-shrink-0">
             <img 
@@ -131,22 +131,71 @@ function App() {
             />
           </div>
           
-          {/* Navigation links on the right */}
-          <div className="flex gap-1 md:gap-6 text-xs md:text-base">
-            <a href="#how-it-works" className="text-white hover:text-primary transition-colors whitespace-nowrap">
+          {/* Desktop Navigation */}
+          <div className="hidden md:flex gap-6 text-base">
+            <a href="#how-it-works" className="text-white hover:text-primary transition-colors">
               How It Works
             </a>
-            <a href="#why-snackhaus" className="text-white hover:text-primary transition-colors whitespace-nowrap">
+            <a href="#why-snackhaus" className="text-white hover:text-primary transition-colors">
               Our Coolers
             </a>
-            <a href="#food-difference" className="text-white hover:text-primary transition-colors whitespace-nowrap">
+            <a href="#food-difference" className="text-white hover:text-primary transition-colors">
               Our Food Difference
             </a>
             <a href="#get-started" className="text-white hover:text-primary transition-colors">
               Contact
             </a>
           </div>
+
+          {/* Mobile Hamburger Menu */}
+          <div className="md:hidden">
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="text-white hover:text-primary transition-colors p-2"
+              aria-label="Toggle menu"
+            >
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </button>
+          </div>
         </div>
+
+        {/* Mobile Dropdown Menu */}
+        {mobileMenuOpen && (
+          <div className="md:hidden bg-secondary-dark border-t border-primary/10">
+            <div className="px-4 py-2 space-y-2">
+              <a 
+                href="#how-it-works" 
+                className="block py-2 text-white hover:text-primary transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                How It Works
+              </a>
+              <a 
+                href="#why-snackhaus" 
+                className="block py-2 text-white hover:text-primary transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Our Coolers
+              </a>
+              <a 
+                href="#food-difference" 
+                className="block py-2 text-white hover:text-primary transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Our Food Difference
+              </a>
+              <a 
+                href="#get-started" 
+                className="block py-2 text-white hover:text-primary transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Contact
+              </a>
+            </div>
+          </div>
+        )}
       </nav>
 
       {/* Hero Section */}
