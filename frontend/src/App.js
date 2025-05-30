@@ -598,8 +598,7 @@ function App() {
                         <label htmlFor="location" className="block mb-2 text-white/80">
                           Location*
                         </label>
-                        <input
-                          type="text"
+                        <select
                           id="location"
                           name="location"
                           value={formData.location}
@@ -607,8 +606,17 @@ function App() {
                           className={`w-full px-4 py-3 rounded-lg bg-white/5 border ${
                             formErrors.location ? "border-red-500" : "border-white/10"
                           } text-white focus:outline-none focus:border-primary transition-colors`}
-                          placeholder="City, State"
-                        />
+                        >
+                          <option value="" className="bg-secondary-dark">Select state</option>
+                          <option value="NSW" className="bg-secondary-dark">New South Wales (NSW)</option>
+                          <option value="VIC" className="bg-secondary-dark">Victoria (VIC)</option>
+                          <option value="QLD" className="bg-secondary-dark">Queensland (QLD)</option>
+                          <option value="WA" className="bg-secondary-dark">Western Australia (WA)</option>
+                          <option value="SA" className="bg-secondary-dark">South Australia (SA)</option>
+                          <option value="TAS" className="bg-secondary-dark">Tasmania (TAS)</option>
+                          <option value="ACT" className="bg-secondary-dark">Australian Capital Territory (ACT)</option>
+                          <option value="NT" className="bg-secondary-dark">Northern Territory (NT)</option>
+                        </select>
                         {formErrors.location && (
                           <p className="text-red-500 text-sm mt-1">{formErrors.location}</p>
                         )}
