@@ -122,26 +122,26 @@ function App() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-secondary-dark border-b border-primary/10 h-32">
         <div className="container-custom h-full flex justify-between items-center px-4">
           {/* Logo on the left */}
-          <div className="flex items-center -ml-8">
+          <div className="flex items-center">
             <img 
               src="https://iili.io/3ps6JMF.png" 
               alt="Snackhaus Logo" 
-              className="h-40 md:h-48"
+              className="h-32 md:h-40"
             />
           </div>
           
           {/* Navigation links on the right */}
-          <div className="flex gap-6">
-            <a href="#how-it-works" className="text-white hover:text-primary transition-colors text-base">
+          <div className="flex gap-3 md:gap-6">
+            <a href="#how-it-works" className="text-white hover:text-primary transition-colors text-xs md:text-base">
               How It Works
             </a>
-            <a href="#why-snackhaus" className="text-white hover:text-primary transition-colors text-base">
+            <a href="#why-snackhaus" className="text-white hover:text-primary transition-colors text-xs md:text-base">
               Our Coolers
             </a>
-            <a href="#food-difference" className="text-white hover:text-primary transition-colors text-base">
+            <a href="#food-difference" className="text-white hover:text-primary transition-colors text-xs md:text-base">
               Our Food Difference
             </a>
-            <a href="#get-started" className="text-white hover:text-primary transition-colors text-base">
+            <a href="#get-started" className="text-white hover:text-primary transition-colors text-xs md:text-base">
               Contact
             </a>
           </div>
