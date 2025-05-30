@@ -630,8 +630,6 @@ function App() {
                           <option value="" className="bg-secondary-dark">Select type of space</option>
                           <option value="gym" className="bg-secondary-dark">Gym</option>
                           <option value="studio" className="bg-secondary-dark">Fitness Studio</option>
-                          <option value="office" className="bg-secondary-dark">Office</option>
-                          <option value="retail" className="bg-secondary-dark">Retail Space</option>
                           <option value="other" className="bg-secondary-dark">Other</option>
                         </select>
                         {formErrors.spaceType && (
