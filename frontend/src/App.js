@@ -672,16 +672,16 @@ function App() {
       </AnimatedSection>
 
       {/* Footer */}
-      <footer className="bg-secondary-dark pt-16 pb-8 border-t border-primary/10">
+      <footer className="bg-secondary-dark pt-12 pb-6 border-t border-primary/10">
         <div className="container-custom">
-          <div className="grid md:grid-cols-3 gap-8 pb-8">
+          <div className="grid md:grid-cols-3 gap-8 pb-6">
             <div>
               <img 
                 src="https://iili.io/3857L2s.png" 
                 alt="Snackhaus Logo" 
-                className="h-36 md:h-40 mb-4"
+                className="h-24 md:h-28 mb-3"
               />
-              <p className="text-white/70 mt-4">
+              <p className="text-white/70 mt-2">
                 Smart coolers with premium wellness snacks for high-traffic spaces.
               </p>
             </div>
