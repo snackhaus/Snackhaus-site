@@ -690,9 +690,9 @@ function App() {
               <h4 className="text-white font-bold mb-4">Quick Links</h4>
               <ul className="space-y-2">
                 <li><a href="#how-it-works" className="text-white/70 hover:text-primary transition-colors">How It Works</a></li>
-                <li><a href="#why-snackhaus" className="text-white/70 hover:text-primary transition-colors">Why Snackhaus</a></li>
-                <li><a href="#get-started" className="text-white/70 hover:text-primary transition-colors">Get a Cooler</a></li>
-                <li><a href="#" className="text-white/70 hover:text-primary transition-colors">FAQ</a></li>
+                <li><a href="#why-snackhaus" className="text-white/70 hover:text-primary transition-colors">Our Coolers</a></li>
+                <li><a href="#food-difference" className="text-white/70 hover:text-primary transition-colors">Our Food Difference</a></li>
+                <li><a href="#get-started" className="text-white/70 hover:text-primary transition-colors">Contact</a></li>
               </ul>
             </div>
             
