@@ -155,19 +155,18 @@ function App() {
           <img 
             src="https://iili.io/3vMYhBI.jpg" 
             alt="Snackhaus Smart Cooler" 
-            className="w-full h-full object-cover object-[70%_10%] brightness-125 contrast-110 transform translate-y-16"
+            className="w-full h-full object-cover object-[70%_10%] md:object-[70%_10%] brightness-125 contrast-110 transform translate-y-16"
           />
           <div className="absolute inset-0 bg-black bg-opacity-10"></div>
         </div>
         
         {/* Content overlay */}
-        <div className="relative h-full container-custom flex items-center pt-20 md:pt-0">
-          <div className="md:grid md:grid-cols-12 w-full">
-            {/* Increased empty space to push content further right and avoid covering cooler */}
-            <div className="md:col-span-8"></div>
-            <div className="md:col-span-4 text-white px-4 md:px-0">
+        <div className="relative h-full container-custom flex items-end md:items-center pb-20 md:pb-0">
+          <div className="w-full">
+            {/* Mobile: Content at bottom, Desktop: Content on right */}
+            <div className="text-white px-4 md:px-0 md:ml-auto md:max-w-lg">
               <motion.h1 
-                className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4"
+                className="text-3xl md:text-5xl lg:text-6xl font-bold mb-3 md:mb-4"
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
@@ -177,7 +176,7 @@ function App() {
               </motion.h1>
               
               <motion.p 
-                className="text-lg md:text-xl mb-8 text-white/90 max-w-lg"
+                className="text-base md:text-xl mb-6 md:mb-8 text-white/90"
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.4 }}
@@ -186,15 +185,15 @@ function App() {
               </motion.p>
               
               <motion.div 
-                className="flex flex-wrap gap-4"
+                className="flex flex-col sm:flex-row gap-3 md:gap-4"
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.6 }}
               >
-                <a href="#get-started" className="bg-primary text-secondary-dark px-6 py-3 rounded-md font-semibold hover:bg-primary-dark transition-all">
+                <a href="#get-started" className="bg-primary text-secondary-dark px-6 py-3 rounded-md font-semibold hover:bg-primary-dark transition-all text-center">
                   Get a Cooler
                 </a>
-                <a href="#how-it-works" className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white transition-colors px-6 py-3 rounded-md flex items-center">
+                <a href="#how-it-works" className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white transition-colors px-6 py-3 rounded-md flex items-center justify-center">
                   How It Works
                 </a>
               </motion.div>
