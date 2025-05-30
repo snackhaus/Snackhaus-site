@@ -491,7 +491,7 @@ function App() {
             <div>
               <h2 className="text-4xl md:text-5xl mb-6">Let's place your cooler.</h2>
               <p className="text-xl text-white/80 mb-8">
-                Fill out the form and we'll reach out within 48 hours to discuss placing a Snackhaus cooler in your space.
+                Fill out the form and we'll reach out within 24 hours to discuss placing a snackhaus cooler in your space.
               </p>
               
               <div className="mb-8">
