@@ -40,6 +40,7 @@ function App() {
   const [formErrors, setFormErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [formSuccess, setFormSuccess] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   
   const handleInputChange = (e) => {
     const { name, value } = e.target;
