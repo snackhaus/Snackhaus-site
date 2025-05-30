@@ -679,9 +679,9 @@ function App() {
               <img 
                 src="https://iili.io/3ps6JMF.png" 
                 alt="Snackhaus Logo" 
-                className="h-40 md:h-48 mb-2"
+                className="h-40 md:h-48"
               />
-              <p className="text-white/70">
+              <p className="text-white/70 -mt-2">
                 Smart coolers with premium wellness snacks for high-traffic spaces.
               </p>
             </div>
