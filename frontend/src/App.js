@@ -722,7 +722,7 @@ function App() {
           {/* Full-width tagline */}
           <div className="border-t border-primary/10 pt-6">
             <p className="text-white/70 text-center">
-              Smart coolers with premium wellness snacks for high-traffic spaces.
+              Fuel better wherever you are.
             </p>
           </div>
           
