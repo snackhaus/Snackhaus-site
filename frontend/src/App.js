@@ -728,13 +728,6 @@ function App() {
             </div>
             <p className="mt-4">© {new Date().getFullYear()} Snackhaus. All rights reserved.</p>
           </div>
-          
-          {/* Full-width tagline */}
-          <div className="border-t border-primary/10 pt-6">
-            <p className="text-white/70 text-center">
-              Smart coolers with premium wellness snacks for high-traffic spaces.
-            </p>
-          </div>
         </div>
       </footer>
     </div>
