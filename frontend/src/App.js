@@ -139,7 +139,7 @@ function App() {
               Our Coolers
             </a>
             <a href="#food-difference" className="text-white hover:text-primary transition-colors text-base">
-              The Food Difference
+              Our Food Difference
             </a>
             <a href="#get-started" className="text-white hover:text-primary transition-colors text-base">
               Contact
