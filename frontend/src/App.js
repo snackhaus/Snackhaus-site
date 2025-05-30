@@ -524,7 +524,7 @@ function App() {
                     </div>
                     <h3 className="text-2xl font-bold mb-2">Request Received!</h3>
                     <p className="text-white/80 mb-4">
-                      Thank you for your interest in Snackhaus. Our team will contact you within 48 hours.
+                      Thank you for your interest in snackhaus. Our team will contact you within 24 hours.
                     </p>
                   </motion.div>
                 ) : (
