@@ -719,6 +719,13 @@ function App() {
             </div>
           </div>
           
+          {/* Full-width tagline */}
+          <div className="border-t border-primary/10 pt-6">
+            <p className="text-white/70 text-center">
+              Smart coolers with premium wellness snacks for high-traffic spaces.
+            </p>
+          </div>
+          
           <div className="pt-8 mt-8 border-t border-white/10 text-center text-white/60 text-sm">
             <p>Snackhaus is a Loopshift Ventures company</p>
             <div className="flex justify-center mt-4 space-x-6">
