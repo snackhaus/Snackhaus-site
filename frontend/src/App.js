@@ -440,6 +440,9 @@ function App() {
                   <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
                     <img src="https://iili.io/3pxPOXV.webp" alt="Prana On" className="max-h-full max-w-full object-contain" />
                   </div>
+                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
+                    <img src="https://iili.io/3ylW42f.md.webp" alt="Brand Logo" className="max-h-full max-w-full object-contain" />
+                  </div>
                 </div>
                 
                 {/* Duplicate set for continuous loop */}
@@ -464,6 +467,9 @@ function App() {
                   </div>
                   <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
                     <img src="https://iili.io/3pxPOXV.webp" alt="Prana On" className="max-h-full max-w-full object-contain" />
+                  </div>
+                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
+                    <img src="https://iili.io/3ylW42f.md.webp" alt="Brand Logo" className="max-h-full max-w-full object-contain" />
                   </div>
                 </div>
               </div>
