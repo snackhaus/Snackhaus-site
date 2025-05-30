@@ -661,7 +661,7 @@ function App() {
                     </div>
                     
                     <p className="text-white/60 text-sm mt-4 text-center">
-                      We'll reach out within 48 hours. No spam, ever.
+                      We'll reach out within 24 hours. No spam, ever.
                     </p>
                   </motion.form>
                 )}
