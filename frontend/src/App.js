@@ -415,30 +415,63 @@ function App() {
           <div className="text-center">
             <h3 className="text-3xl font-bold text-secondary-dark mb-12">Trusted Brands</h3>
             
-            <div className="flex flex-wrap justify-center items-center gap-8 max-w-6xl mx-auto">
-              <div className="flex-shrink-0 h-12 w-28 flex items-center justify-center">
-                <img src="https://iili.io/3pxizTx.webp" alt="Remedy" className="max-h-full max-w-full object-contain opacity-70 hover:opacity-100 transition-opacity" />
-              </div>
-              <div className="flex-shrink-0 h-12 w-28 flex items-center justify-center">
-                <img src="https://iili.io/3pxi67n.webp" alt="YoPRO" className="max-h-full max-w-full object-contain opacity-70 hover:opacity-100 transition-opacity" />
-              </div>
-              <div className="flex-shrink-0 h-12 w-28 flex items-center justify-center">
-                <img src="https://iili.io/3pxiCVf.webp" alt="Cocobella" className="max-h-full max-w-full object-contain opacity-70 hover:opacity-100 transition-opacity" />
-              </div>
-              <div className="flex-shrink-0 h-12 w-28 flex items-center justify-center">
-                <img src="https://iili.io/3pxiPQI.webp" alt="Chief" className="max-h-full max-w-full object-contain opacity-70 hover:opacity-100 transition-opacity" />
-              </div>
-              <div className="flex-shrink-0 h-12 w-28 flex items-center justify-center">
-                <img src="https://iili.io/3pxilHv.webp" alt="Fibre Boost" className="max-h-full max-w-full object-contain opacity-70 hover:opacity-100 transition-opacity" />
-              </div>
-              <div className="flex-shrink-0 h-12 w-28 flex items-center justify-center">
-                <img src="https://iili.io/3pxi1Qj.webp" alt="Prana On" className="max-h-full max-w-full object-contain opacity-70 hover:opacity-100 transition-opacity" />
-              </div>
-              <div className="flex-shrink-0 h-12 w-28 flex items-center justify-center">
-                <img src="https://iili.io/3pxisyb.webp" alt="Smart Diet Solutions" className="max-h-full max-w-full object-contain opacity-70 hover:opacity-100 transition-opacity" />
-              </div>
-              <div className="flex-shrink-0 h-12 w-28 flex items-center justify-center">
-                <img src="https://iili.io/3pxiAvR.webp" alt="Pana Organic" className="max-h-full max-w-full object-contain opacity-70 hover:opacity-100 transition-opacity" />
+            <div className="relative overflow-hidden">
+              <div className="flex animate-carousel space-x-6 py-6">
+                {/* First set of logos */}
+                <div className="flex space-x-6 items-center">
+                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
+                    <img src="https://iili.io/3pxiX4t.webp" alt="Smart Diet Solutions" className="max-h-full max-w-full object-contain" />
+                  </div>
+                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
+                    <img src="https://iili.io/3pxiX4t.webp" alt="Macro Mike" className="max-h-full max-w-full object-contain" />
+                  </div>
+                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
+                    <img src="https://iili.io/3pxizTx.webp" alt="Remedy" className="max-h-full max-w-full object-contain" />
+                  </div>
+                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
+                    <img src="https://iili.io/3pxidhl.webp" alt="YoPro" className="max-h-full max-w-full object-contain" />
+                  </div>
+                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
+                    <img src="https://iili.io/3px6uAx.webp" alt="Cocobella" className="max-h-full max-w-full object-contain" />
+                  </div>
+                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
+                    <img src="https://iili.io/3px4syv.webp" alt="Chief" className="max-h-full max-w-full object-contain" />
+                  </div>
+                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
+                    <img src="https://iili.io/3px6gDl.webp" alt="Fibre-Boost" className="max-h-full max-w-full object-contain" />
+                  </div>
+                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
+                    <img src="https://iili.io/3pxPOXV.webp" alt="Prana On" className="max-h-full max-w-full object-contain" />
+                  </div>
+                </div>
+                
+                {/* Duplicate set for continuous loop */}
+                <div className="flex space-x-6 items-center">
+                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
+                    <img src="https://iili.io/3pxiX4t.webp" alt="Smart Diet Solutions" className="max-h-full max-w-full object-contain" />
+                  </div>
+                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
+                    <img src="https://iili.io/3pxiX4t.webp" alt="Macro Mike" className="max-h-full max-w-full object-contain" />
+                  </div>
+                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
+                    <img src="https://iili.io/3pxizTx.webp" alt="Remedy" className="max-h-full max-w-full object-contain" />
+                  </div>
+                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
+                    <img src="https://iili.io/3pxidhl.webp" alt="YoPro" className="max-h-full max-w-full object-contain" />
+                  </div>
+                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
+                    <img src="https://iili.io/3px6uAx.webp" alt="Cocobella" className="max-h-full max-w-full object-contain" />
+                  </div>
+                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
+                    <img src="https://iili.io/3px4syv.webp" alt="Chief" className="max-h-full max-w-full object-contain" />
+                  </div>
+                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
+                    <img src="https://iili.io/3px6gDl.webp" alt="Fibre-Boost" className="max-h-full max-w-full object-contain" />
+                  </div>
+                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
+                    <img src="https://iili.io/3pxPOXV.webp" alt="Prana On" className="max-h-full max-w-full object-contain" />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
