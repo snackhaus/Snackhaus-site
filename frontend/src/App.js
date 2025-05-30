@@ -325,7 +325,7 @@ function App() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-xl text-white/90 mb-8">
-                Snackhaus smart coolers generate 2 to 3 times more revenue than traditional vending.
+                Snackhaus smart coolers generate up to 3x more revenue than traditional vending, and in some cases, even more.
                 It's not just the snacks. It's the tech, the experience, and the seamless backend.
               </p>
               
