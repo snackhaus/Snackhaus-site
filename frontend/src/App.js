@@ -423,9 +423,6 @@ function App() {
                     <img src="https://iili.io/3pxiX4t.webp" alt="Smart Diet Solutions" className="max-h-full max-w-full object-contain" />
                   </div>
                   <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
-                    <img src="https://iili.io/3pxiX4t.webp" alt="Macro Mike" className="max-h-full max-w-full object-contain" />
-                  </div>
-                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
                     <img src="https://iili.io/3pxizTx.webp" alt="Remedy" className="max-h-full max-w-full object-contain" />
                   </div>
                   <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
@@ -449,9 +446,6 @@ function App() {
                 <div className="flex space-x-6 items-center">
                   <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
                     <img src="https://iili.io/3pxiX4t.webp" alt="Smart Diet Solutions" className="max-h-full max-w-full object-contain" />
-                  </div>
-                  <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
-                    <img src="https://iili.io/3pxiX4t.webp" alt="Macro Mike" className="max-h-full max-w-full object-contain" />
                   </div>
                   <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
                     <img src="https://iili.io/3pxizTx.webp" alt="Remedy" className="max-h-full max-w-full object-contain" />
