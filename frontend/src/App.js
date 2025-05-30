@@ -205,7 +205,7 @@ function App() {
           <img 
             src="https://iili.io/3vMYhBI.jpg" 
             alt="Snackhaus Smart Cooler" 
-            className="w-full h-full object-cover object-[40%_10%] md:object-[70%_10%] brightness-125 contrast-110 transform translate-y-16"
+            className="w-full h-full object-cover object-[20%_10%] md:object-[70%_10%] brightness-125 contrast-110 transform translate-y-16"
           />
           <div className="absolute inset-0 bg-black bg-opacity-10"></div>
         </div>
@@ -213,42 +213,40 @@ function App() {
         {/* Content overlay */}
         <div className="relative h-full container-custom flex items-center">
           <div className="w-full">
-            {/* Mobile: Content on right side with background, Desktop: Content on right */}
-            <div className="text-white px-4 md:px-0 ml-auto max-w-xs md:max-w-lg">
-              <div className="bg-black/60 md:bg-transparent backdrop-blur-sm md:backdrop-blur-none rounded-lg p-4 md:p-0">
-                <motion.h1 
-                  className="text-2xl md:text-5xl lg:text-6xl font-bold mb-2 md:mb-4 leading-tight"
-                  initial={{ opacity: 0, y: -20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: 0.2 }}
-                >
-                  Fuel better. <br />
-                  <span className="text-primary">Earn more.</span>
-                </motion.h1>
-                
-                <motion.p 
-                  className="text-sm md:text-xl mb-4 md:mb-8 text-white/90 leading-snug"
-                  initial={{ opacity: 0, y: -20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: 0.4 }}
-                >
-                  We place and operate our AI-powered snackhaus cooler in your gym so your members stay fuelled - and you earn passively
-                </motion.p>
-                
-                <motion.div 
-                  className="flex flex-col gap-2 md:gap-4"
-                  initial={{ opacity: 0, y: -20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: 0.6 }}
-                >
-                  <a href="#get-started" className="bg-primary text-secondary-dark px-4 py-2 md:px-6 md:py-3 rounded-md font-semibold hover:bg-primary-dark transition-all text-center text-sm md:text-base">
-                    Get a Cooler
-                  </a>
-                  <a href="#how-it-works" className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white transition-colors px-4 py-2 md:px-6 md:py-3 rounded-md flex items-center justify-center text-sm md:text-base">
-                    How It Works
-                  </a>
-                </motion.div>
-              </div>
+            {/* Mobile: Content positioned to the right of cooler, Desktop: Content on right */}
+            <div className="text-white px-4 md:px-0 ml-auto max-w-xs md:max-w-lg mr-4 md:mr-0">
+              <motion.h1 
+                className="text-2xl md:text-5xl lg:text-6xl font-bold mb-2 md:mb-4 leading-tight"
+                initial={{ opacity: 0, y: -20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.2 }}
+              >
+                Fuel better. <br />
+                <span className="text-primary">Earn more.</span>
+              </motion.h1>
+              
+              <motion.p 
+                className="text-sm md:text-xl mb-4 md:mb-8 text-white/90 leading-snug"
+                initial={{ opacity: 0, y: -20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.4 }}
+              >
+                We place and operate our AI-powered snackhaus cooler in your gym so your members stay fuelled - and you earn passively
+              </motion.p>
+              
+              <motion.div 
+                className="flex flex-col gap-2 md:gap-4"
+                initial={{ opacity: 0, y: -20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.6 }}
+              >
+                <a href="#get-started" className="bg-primary text-secondary-dark px-4 py-2 md:px-6 md:py-3 rounded-md font-semibold hover:bg-primary-dark transition-all text-center text-sm md:text-base">
+                  Get a Cooler
+                </a>
+                <a href="#how-it-works" className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white transition-colors px-4 py-2 md:px-6 md:py-3 rounded-md flex items-center justify-center text-sm md:text-base">
+                  How It Works
+                </a>
+              </motion.div>
             </div>
           </div>
         </div>
