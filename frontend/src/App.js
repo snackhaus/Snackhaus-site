@@ -122,7 +122,7 @@ function App() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-secondary-dark border-b border-primary/10 h-32">
         <div className="container-custom h-full flex justify-between items-center px-4">
           {/* Logo on the left */}
-          <div className="flex items-center">
+          <div className="flex items-center flex-shrink-0">
             <img 
               src="https://iili.io/3ps6JMF.png" 
               alt="Snackhaus Logo" 
@@ -131,14 +131,14 @@ function App() {
           </div>
           
           {/* Navigation links on the right */}
-          <div className="flex gap-3 md:gap-6">
-            <a href="#how-it-works" className="text-white hover:text-primary transition-colors text-xs md:text-base">
+          <div className="flex gap-2 md:gap-6 ml-4 md:ml-8">
+            <a href="#how-it-works" className="text-white hover:text-primary transition-colors text-xs md:text-base whitespace-nowrap">
               How It Works
             </a>
-            <a href="#why-snackhaus" className="text-white hover:text-primary transition-colors text-xs md:text-base">
+            <a href="#why-snackhaus" className="text-white hover:text-primary transition-colors text-xs md:text-base whitespace-nowrap">
               Our Coolers
             </a>
-            <a href="#food-difference" className="text-white hover:text-primary transition-colors text-xs md:text-base">
+            <a href="#food-difference" className="text-white hover:text-primary transition-colors text-xs md:text-base whitespace-nowrap">
               Our Food Difference
             </a>
             <a href="#get-started" className="text-white hover:text-primary transition-colors text-xs md:text-base">
