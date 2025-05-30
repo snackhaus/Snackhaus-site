@@ -149,13 +149,13 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-32 md:pt-40 relative h-screen overflow-hidden">
+      <section className="pt-20 md:pt-32 relative h-screen overflow-hidden">
         {/* Full-screen background image */}
         <div className="absolute inset-0">
           <img 
             src="https://iili.io/3vMYhBI.jpg" 
             alt="Snackhaus Smart Cooler" 
-            className="w-full h-full object-cover object-[85%_10%] md:object-[70%_10%] brightness-125 contrast-110 transform translate-y-16"
+            className="w-full h-full object-cover object-[60%_10%] md:object-[70%_10%] brightness-125 contrast-110 transform translate-y-16"
           />
           <div className="absolute inset-0 bg-black bg-opacity-10"></div>
         </div>
