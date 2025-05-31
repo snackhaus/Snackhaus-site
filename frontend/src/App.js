@@ -203,7 +203,7 @@ function App() {
         {/* Mobile background image */}
         <div className="absolute inset-0 block md:hidden">
           <img 
-            src="https://iili.io/F9xw0x9.md.jpg" 
+            src="https://iili.io/F9zHUJa.md.jpg" 
             alt="Snackhaus Smart Cooler" 
             className="w-full h-full object-cover object-center"
           />
