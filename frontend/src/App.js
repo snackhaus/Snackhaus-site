@@ -221,11 +221,11 @@ function App() {
         </div>
         
         {/* Content overlay */}
-        <div className="relative h-full container-custom flex items-start pt-12 md:items-center md:pt-0">
+        <div className="relative h-full container-custom flex items-center md:items-center">
           <div className="w-full flex">
             {/* Mobile: Text positioned on right side of cooler */}
             <div className="w-1/2 md:w-2/3"></div>
-            <div className="w-1/2 md:w-1/3 text-white pr-4 md:pr-0">
+            <div className="w-1/2 md:w-1/3 text-white pr-4 md:pr-0 -mt-16 md:mt-0">
               <motion.h1 
                 className="text-2xl md:text-5xl lg:text-6xl font-bold mb-3 md:mb-4 leading-tight"
                 initial={{ opacity: 0, y: -20 }}
