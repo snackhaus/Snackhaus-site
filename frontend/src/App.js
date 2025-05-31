@@ -203,11 +203,11 @@ function App() {
         {/* Mobile background image */}
         <div className="absolute inset-0 block md:hidden">
           <img 
-            src="https://freeimage.host/i/img-7912.F9xw0x9" 
+            src="https://images.unsplash.com/photo-1585341840941-98553e474d84" 
             alt="Snackhaus Smart Cooler" 
-            className="w-full h-full object-cover object-center"
+            className="w-full h-full object-cover object-left"
           />
-          <div className="absolute inset-0 bg-black bg-opacity-10"></div>
+          <div className="absolute inset-0 bg-black bg-opacity-20"></div>
         </div>
         
         {/* Desktop background image */}
