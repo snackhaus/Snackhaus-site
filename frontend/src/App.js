@@ -224,10 +224,10 @@ function App() {
         <div className="relative h-full container-custom flex items-center md:items-center">
           <div className="w-full flex">
             {/* Mobile: Text positioned on right side of cooler */}
-            <div className="w-3/5 md:w-2/3"></div>
-            <div className="w-2/5 md:w-1/3 text-white pr-4 pl-1 md:pr-0 md:pl-0 -mt-24 md:mt-0">
+            <div className="w-4/5 md:w-2/3"></div>
+            <div className="w-1/5 md:w-1/3 text-white pr-2 pl-1 md:pr-0 md:pl-0 -mt-24 md:mt-0">
               <motion.h1 
-                className="text-3xl md:text-5xl lg:text-6xl font-bold mb-2 md:mb-4 leading-tight whitespace-nowrap"
+                className="text-2xl md:text-5xl lg:text-6xl font-bold mb-2 md:mb-4 leading-tight whitespace-nowrap"
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
@@ -237,7 +237,7 @@ function App() {
               </motion.h1>
               
               <motion.p 
-                className="text-base md:text-xl mb-3 md:mb-8 text-white/90 leading-tight"
+                className="text-xs md:text-xl mb-3 md:mb-8 text-white/90 leading-tight"
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.4 }}
@@ -251,10 +251,10 @@ function App() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.6 }}
               >
-                <a href="#get-started" className="bg-primary text-secondary-dark px-3 py-2 md:px-6 md:py-3 rounded-lg font-semibold hover:bg-primary-dark transition-all text-center text-base md:text-base shadow-lg">
+                <a href="#get-started" className="bg-primary text-secondary-dark px-2 py-2 md:px-6 md:py-3 rounded-lg font-semibold hover:bg-primary-dark transition-all text-center text-xs md:text-base shadow-lg">
                   Get a Cooler
                 </a>
-                <a href="#how-it-works" className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white transition-colors px-3 py-2 md:px-6 md:py-3 rounded-lg flex items-center justify-center text-base md:text-base border border-white/30">
+                <a href="#how-it-works" className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white transition-colors px-2 py-2 md:px-6 md:py-3 rounded-lg flex items-center justify-center text-xs md:text-base border border-white/30">
                   How It Works
                 </a>
               </motion.div>
