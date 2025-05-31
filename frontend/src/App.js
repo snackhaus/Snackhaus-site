@@ -200,14 +200,24 @@ function App() {
 
       {/* Hero Section */}
       <section className="pt-20 md:pt-32 relative h-screen overflow-hidden">
-        {/* Full-screen background image */}
-        <div className="absolute inset-0">
+        {/* Mobile background image */}
+        <div className="absolute inset-0 block md:hidden">
+          <img 
+            src="https://freeimage.host/i/img-7912.F9xw0x9" 
+            alt="Snackhaus Smart Cooler" 
+            className="w-full h-full object-cover object-center"
+          />
+          <div className="absolute inset-0 bg-black bg-opacity-10"></div>
+        </div>
+        
+        {/* Desktop background image */}
+        <div className="absolute inset-0 hidden md:block">
           <img 
             src="https://iili.io/3vMYhBI.jpg" 
             alt="Snackhaus Smart Cooler" 
-            className="w-full h-full object-cover object-[20%_10%] md:object-[70%_10%] brightness-125 contrast-110"
+            className="w-full h-full object-cover object-[70%_10%] brightness-125 contrast-110"
           />
-          <div className="absolute inset-0 bg-black bg-opacity-20 md:bg-opacity-10"></div>
+          <div className="absolute inset-0 bg-black bg-opacity-10"></div>
         </div>
         
         {/* Content overlay */}
