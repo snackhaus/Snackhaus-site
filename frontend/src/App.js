@@ -205,18 +205,19 @@ function App() {
           <img 
             src="https://iili.io/3vMYhBI.jpg" 
             alt="Snackhaus Smart Cooler" 
-            className="w-full h-full object-cover object-[5%_10%] md:object-[70%_10%] brightness-125 contrast-110 transform translate-y-16"
+            className="w-full h-full object-cover object-[0%_10%] md:object-[70%_10%] brightness-125 contrast-110 transform translate-y-16"
           />
           <div className="absolute inset-0 bg-black bg-opacity-10"></div>
         </div>
         
         {/* Content overlay */}
         <div className="relative h-full container-custom flex items-center">
-          <div className="w-full">
-            {/* Mobile: Content positioned on right side of gym, Desktop: Content on right */}
-            <div className="text-white px-4 md:px-0 ml-auto max-w-xs md:max-w-lg mr-4 md:mr-0">
+          <div className="w-full flex">
+            {/* Mobile: Cooler on left, text on right side of gym */}
+            <div className="w-1/2 md:w-2/3"></div>
+            <div className="w-1/2 md:w-1/3 text-white pr-4 md:pr-0">
               <motion.h1 
-                className="text-2xl md:text-5xl lg:text-6xl font-bold mb-2 md:mb-4 leading-tight"
+                className="text-2xl md:text-5xl lg:text-6xl font-bold mb-3 md:mb-4 leading-tight"
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
