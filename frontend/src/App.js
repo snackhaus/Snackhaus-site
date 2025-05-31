@@ -225,7 +225,7 @@ function App() {
           <div className="w-full flex">
             {/* Mobile: Text positioned on right side of cooler */}
             <div className="w-1/2 md:w-2/3"></div>
-            <div className="w-1/2 md:w-1/3 text-white pr-1 pl-4 md:pr-0 md:pl-0 -mt-24 md:mt-0">
+            <div className="w-1/2 md:w-1/3 text-white pr-1 pl-6 md:pr-0 md:pl-0 -mt-24 md:mt-0">
               <motion.h1 
                 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-2 md:mb-4 leading-tight whitespace-nowrap"
                 initial={{ opacity: 0, y: -20 }}
