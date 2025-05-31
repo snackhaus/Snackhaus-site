@@ -452,8 +452,8 @@ function App() {
             <h2 className="text-4xl md:text-5xl mb-8">No Junk. All Function.</h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-neutral-800 leading-relaxed">
-                Snackhaus isn't just vending. It's a curated mix of snacks that fuel performance — chosen by experts, not distributors.<br />
-                Color-coded tags on the cooler make it easy to choose what fits your goals — from protein to plant-based, low sugar to high fiber.<br />
+                Snackhaus isn't just vending. It's a curated mix of snacks that fuel performance, chosen by experts, not distributors.<br />
+                Color-coded tags on the cooler make it easy to choose what fits your goals, whether it's protein, plant-based, low sugar or high fiber.<br />
                 Stocked smart. Labeled clearly. Chosen fast.
               </p>
             </div>
