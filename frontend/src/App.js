@@ -232,7 +232,8 @@ function App() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
               >
-                Fuel better. <span className="text-primary">Earn more.</span>
+                Fuel better.<br />
+                <span className="text-primary">Earn more.</span>
               </motion.h1>
               
               <motion.p 
