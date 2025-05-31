@@ -475,8 +475,7 @@ function App() {
           {/* Tag Buttons Grid */}
           <div className="max-w-[700px] mx-auto mb-16">
             <motion.div 
-              className="grid gap-4 mb-16"
-              style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))' }}
+              className="grid grid-cols-3 gap-4 mb-16"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
