@@ -449,31 +449,57 @@ function App() {
       <AnimatedSection id="food-difference" className="section-padding bg-neutral-100 text-secondary scroll-mt-32">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl mb-8">No Junk. All Function.</h2>
-            <div className="max-w-4xl mx-auto">
-              <p className="text-xl text-neutral-800 leading-relaxed">
+            <motion.h2 
+              className="text-4xl md:text-5xl mb-6"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+            >
+              No Junk. All Function.
+            </motion.h2>
+            <div className="max-w-[600px] mx-auto">
+              <motion.p 
+                className="text-lg font-normal text-neutral-800 leading-relaxed text-center"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.2 }}
+                style={{ fontSize: '1.1rem', fontWeight: 400 }}
+              >
                 Snackhaus isn't just vending. It's a curated mix of snacks that fuel performance, chosen by experts, not distributors.<br />
                 Color-coded tags on the cooler make it easy to choose what fits your goals, whether it's protein, plant-based, low sugar or high fiber.<br />
                 Stocked smart. Labeled clearly. Chosen fast.
-              </p>
+              </motion.p>
             </div>
           </div>
           
-          {/* 2x3 Grid for Snack Tags */}
-          <div className="max-w-4xl mx-auto mb-20">
-            <div className="grid grid-cols-3 gap-6 mb-16">
-              <span className="bg-red-500 text-white px-6 py-4 rounded-full text-lg font-medium text-center">High Protein</span>
-              <span className="bg-blue-500 text-white px-6 py-4 rounded-full text-lg font-medium text-center">Organic</span>
-              <span className="bg-purple-500 text-white px-6 py-4 rounded-full text-lg font-medium text-center">Gluten Free</span>
-              <span className="bg-green-500 text-white px-6 py-4 rounded-full text-lg font-medium text-center">Vegan</span>
-              <span className="bg-orange-500 text-white px-6 py-4 rounded-full text-lg font-medium text-center">Low Sugar</span>
-              <span className="bg-yellow-500 text-white px-6 py-4 rounded-full text-lg font-medium text-center">High Fiber</span>
-            </div>
+          {/* Tag Buttons Grid */}
+          <div className="max-w-[700px] mx-auto mb-16">
+            <motion.div 
+              className="grid gap-4 mb-16"
+              style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))' }}
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+            >
+              <span className="bg-red-500 text-white px-4 py-3 rounded-full text-base font-medium text-center">High Protein</span>
+              <span className="bg-blue-500 text-white px-4 py-3 rounded-full text-base font-medium text-center">Organic</span>
+              <span className="bg-purple-500 text-white px-4 py-3 rounded-full text-base font-medium text-center">Gluten Free</span>
+              <span className="bg-green-500 text-white px-4 py-3 rounded-full text-base font-medium text-center">Vegan</span>
+              <span className="bg-orange-500 text-white px-4 py-3 rounded-full text-base font-medium text-center">Low Sugar</span>
+              <span className="bg-yellow-500 text-white px-4 py-3 rounded-full text-base font-medium text-center">High Fiber</span>
+            </motion.div>
           </div>
           
           {/* Trusted Brands Section */}
-          <div className="text-center">
-            <h3 className="text-3xl font-bold text-secondary-dark mb-12">Trusted Brands</h3>
+          <div className="text-center pt-8">
+            <motion.h3 
+              className="text-3xl font-bold text-secondary-dark mb-12"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.6 }}
+            >
+              Trusted Brands
+            </motion.h3>
             
             <div className="relative overflow-hidden">
               <div className="flex animate-carousel space-x-6 py-6">
