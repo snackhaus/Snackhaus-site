@@ -587,7 +587,7 @@ function App() {
                   transition={{ duration: 0.8 }}
                 >
                   <img 
-                    src="https://iili.io/3vMYhBI.jpg" 
+                    src="https://iili.io/F9ThcAl.md.png" 
                     alt="Person grabbing drink from cooler" 
                     className="w-full h-auto object-cover rounded-2xl"
                   />
