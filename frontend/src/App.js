@@ -221,7 +221,7 @@ function App() {
         </div>
         
         {/* Content overlay */}
-        <div className="relative h-full container-custom flex items-center">
+        <div className="relative h-full container-custom flex items-start pt-20 md:items-center md:pt-0">
           <div className="w-full flex">
             {/* Mobile: Text positioned on right side of cooler */}
             <div className="w-1/2 md:w-2/3"></div>
