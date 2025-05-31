@@ -589,7 +589,7 @@ function App() {
                   <img 
                     src="https://iili.io/F9ThcAl.md.png" 
                     alt="Person grabbing drink from cooler" 
-                    className="w-full h-80 md:h-96 object-cover object-top rounded-2xl"
+                    className="w-full h-80 md:h-96 object-cover object-center rounded-2xl"
                   />
                 </motion.div>
               </div>
