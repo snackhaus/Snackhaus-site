@@ -293,7 +293,7 @@ function App() {
                 </div>
                 <h4 className="text-2xl font-bold mb-3">Tap</h4>
                 <p className="text-neutral-700">
-                  Unlock the cooler with your phone or card. Just like rideshare, we take a pre-auth.
+                  Unlock the cooler with your phone or card. No app downloads, no logins. Just a quick tap — like rideshare, we take a pre-auth.
                 </p>
               </div>
               
