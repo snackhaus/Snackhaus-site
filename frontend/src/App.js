@@ -455,7 +455,7 @@ Message: ${formData.message}
                 <img 
                   src="https://iili.io/3LN2mTQ.webp" 
                   alt="Snackhaus Smart Cooler" 
-                  className="w-full h-auto object-cover rounded-2xl"
+                  className="w-full h-auto object-cover rounded-2xl transition-transform duration-500 hover:scale-105"
                 />
               </motion.div>
             </div>
