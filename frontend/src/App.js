@@ -498,12 +498,12 @@ Message: ${formData.message}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
             >
-              <span className="bg-red-500 text-white px-4 py-3 rounded-full text-base font-medium text-center flex items-center justify-center">High Protein</span>
-              <span className="bg-blue-500 text-white px-4 py-3 rounded-full text-base font-medium text-center flex items-center justify-center">Organic</span>
-              <span className="bg-purple-500 text-white px-4 py-3 rounded-full text-base font-medium text-center flex items-center justify-center">Gluten Free</span>
-              <span className="bg-green-500 text-white px-4 py-3 rounded-full text-base font-medium text-center flex items-center justify-center">Vegan</span>
-              <span className="bg-orange-500 text-white px-4 py-3 rounded-full text-base font-medium text-center flex items-center justify-center">Low Sugar</span>
-              <span className="bg-yellow-500 text-white px-4 py-3 rounded-full text-base font-medium text-center flex items-center justify-center">High Fiber</span>
+              <span className="bg-red-500 text-white px-4 py-3 rounded-full text-base font-medium text-center flex items-center justify-center cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-red-600">High Protein</span>
+              <span className="bg-blue-500 text-white px-4 py-3 rounded-full text-base font-medium text-center flex items-center justify-center cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-blue-600">Organic</span>
+              <span className="bg-purple-500 text-white px-4 py-3 rounded-full text-base font-medium text-center flex items-center justify-center cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-purple-600">Gluten Free</span>
+              <span className="bg-green-500 text-white px-4 py-3 rounded-full text-base font-medium text-center flex items-center justify-center cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-green-600">Vegan</span>
+              <span className="bg-orange-500 text-white px-4 py-3 rounded-full text-base font-medium text-center flex items-center justify-center cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-orange-600">Low Sugar</span>
+              <span className="bg-yellow-500 text-white px-4 py-3 rounded-full text-base font-medium text-center flex items-center justify-center cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-yellow-600">High Fiber</span>
             </motion.div>
           </div>
           
