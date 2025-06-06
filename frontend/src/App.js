@@ -825,14 +825,13 @@ Message: ${formData.message}
           </div>
           
           <div className="pt-8 mt-8 border-t border-white/10 text-center text-white/60 text-sm">
-            <p>Snackhaus is a Loopshift Ventures company</p>
+            <p>Snackhaus is a wholly owned subsidiary of Loopshift Ventures Pty Ltd (ABN 41 686 385 526).</p>
             <div className="flex justify-center mt-4 space-x-6">
               <a href="#" className="hover:text-primary transition-colors">Terms</a>
               <a href="#" className="hover:text-primary transition-colors">Privacy</a>
               <a href="#" className="hover:text-primary transition-colors">Contact</a>
             </div>
             <p className="mt-4">© {new Date().getFullYear()} Snackhaus. All rights reserved.</p>
-            <p className="text-sm text-white/60 mt-2">Snackhaus is a wholly owned subsidiary of Loopshift Ventures Pty Ltd (ABN 41 686 385 526).</p>
           </div>
         </div>
       </footer>
