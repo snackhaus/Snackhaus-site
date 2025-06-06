@@ -535,7 +535,7 @@ Message: ${formData.message}
                     <img src="https://iili.io/3px6uAx.webp" alt="Cocobella" className="max-h-full max-w-full object-contain" />
                   </div>
                   <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
-                    <img src="https://iili.io/3px4syv.webp" alt="Chief" className="max-h-full max-w-full object-contain" />
+                    <img src="https://iili.io/F2cd7hg.md.png" alt="Chief" className="max-h-full max-w-full object-contain" />
                   </div>
                   <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
                     <img src="https://iili.io/3px6gDl.webp" alt="Fibre-Boost" className="max-h-full max-w-full object-contain" />
@@ -566,7 +566,7 @@ Message: ${formData.message}
                     <img src="https://iili.io/3px6uAx.webp" alt="Cocobella" className="max-h-full max-w-full object-contain" />
                   </div>
                   <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
-                    <img src="https://iili.io/3px4syv.webp" alt="Chief" className="max-h-full max-w-full object-contain" />
+                    <img src="https://iili.io/F2cd7hg.md.png" alt="Chief" className="max-h-full max-w-full object-contain" />
                   </div>
                   <div className="flex-shrink-0 h-16 w-32 flex items-center justify-center">
                     <img src="https://iili.io/3px6gDl.webp" alt="Fibre-Boost" className="max-h-full max-w-full object-contain" />
