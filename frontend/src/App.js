@@ -800,7 +800,7 @@ Message: ${formData.message}
               <h4 className="text-white font-bold mb-4">Contact</h4>
               <ul className="space-y-2">
                 <li className="text-white/70">hello@snackhaus.com.au</li>
-                <li className="text-white/70">1-800-SNACK-HAUS</li>
+
                 <li className="flex space-x-4 mt-4">
                   <a href="#" className="text-white/70 hover:text-primary transition-colors">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
