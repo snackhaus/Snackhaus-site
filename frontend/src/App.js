@@ -86,7 +86,7 @@ function App() {
     return errors;
   };
   
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     
     const errors = validateForm();
@@ -94,26 +94,25 @@ function App() {
     if (Object.keys(errors).length === 0) {
       setIsSubmitting(true);
       
-      // EmailJS configuration - these need to be set up in EmailJS dashboard
-      const serviceID = 'service_snackhaus'; // Replace with your EmailJS service ID
-      const templateID = 'template_snackhaus'; // Replace with your EmailJS template ID
-      const publicKey = 'YOUR_PUBLIC_KEY'; // Replace with your EmailJS public key
-      
-      // Template parameters for EmailJS
-      const templateParams = {
-        to_email: 'tommy@snackhaus.com.au',
-        from_name: formData.firstName,
-        business_name: formData.businessName,
-        from_email: formData.email,
-        location: formData.location,
-        message: formData.message,
-        subject: 'New Snackhaus Cooler Request'
-      };
-      
-      // Send email using EmailJS
-      emailjs.send(serviceID, templateID, templateParams, publicKey)
-        .then((response) => {
-          console.log('Email sent successfully:', response);
+      try {
+        // Using Formspree - replace YOUR_FORM_ID with actual Formspree form ID
+        const response = await fetch('https://formspree.io/f/tommy@snackhaus.com.au', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            name: formData.firstName,
+            business: formData.businessName,
+            email: formData.email,
+            location: formData.location,
+            message: formData.message,
+            _subject: 'New Snackhaus Cooler Request'
+          })
+        });
+        
+        if (response.ok) {
+          console.log('Email sent successfully');
           setIsSubmitting(false);
           setFormSuccess(true);
           
@@ -128,13 +127,14 @@ function App() {
               message: ""
             });
           }, 5000);
-        })
-        .catch((error) => {
-          console.error('Failed to send email:', error);
-          setIsSubmitting(false);
-          // You could add error handling here
-          alert('Failed to send message. Please try again or contact us directly at tommy@snackhaus.com.au');
-        });
+        } else {
+          throw new Error('Failed to send message');
+        }
+      } catch (error) {
+        console.error('Failed to send email:', error);
+        setIsSubmitting(false);
+        alert('Failed to send message. Please try again or contact us directly at tommy@snackhaus.com.au');
+      }
     } else {
       setFormErrors(errors);
     }
