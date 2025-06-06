@@ -515,7 +515,7 @@ Message: ${formData.message}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.6 }}
             >
-              Trusted Brands
+              Trusted Brands Include
             </motion.h3>
             
             <div className="relative overflow-hidden">
