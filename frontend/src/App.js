@@ -95,42 +95,47 @@ function App() {
     if (Object.keys(errors).length === 0) {
       setIsSubmitting(true);
       
-      // Create email content
-      const emailBody = `
-New Snackhaus Cooler Request:
-
-Name: ${formData.firstName}
-Business: ${formData.businessName}
-Email: ${formData.email}
-Location: ${formData.location}
-Message: ${formData.message}
-      `.trim();
+      // EmailJS configuration - these need to be set up in EmailJS dashboard
+      const serviceID = 'service_snackhaus'; // Replace with your EmailJS service ID
+      const templateID = 'template_snackhaus'; // Replace with your EmailJS template ID
+      const publicKey = 'YOUR_PUBLIC_KEY'; // Replace with your EmailJS public key
       
-      // Create mailto link
-      const subject = encodeURIComponent("New Snackhaus Cooler Request");
-      const body = encodeURIComponent(emailBody);
-      const mailtoLink = `mailto:tommy@snackhaus.com.au?subject=${subject}&body=${body}`;
+      // Template parameters for EmailJS
+      const templateParams = {
+        to_email: 'tommy@snackhaus.com.au',
+        from_name: formData.firstName,
+        business_name: formData.businessName,
+        from_email: formData.email,
+        location: formData.location,
+        message: formData.message,
+        subject: 'New Snackhaus Cooler Request'
+      };
       
-      // Open email client
-      window.location.href = mailtoLink;
-      
-      setTimeout(() => {
-        console.log("Form submitted:", formData);
-        setIsSubmitting(false);
-        setFormSuccess(true);
-        
-        // Reset form after 5 seconds
-        setTimeout(() => {
-          setFormSuccess(false);
-          setFormData({
-            firstName: "",
-            businessName: "",
-            email: "",
-            location: "",
-            message: ""
-          });
-        }, 5000);
-      }, 1000);
+      // Send email using EmailJS
+      emailjs.send(serviceID, templateID, templateParams, publicKey)
+        .then((response) => {
+          console.log('Email sent successfully:', response);
+          setIsSubmitting(false);
+          setFormSuccess(true);
+          
+          // Reset form after 5 seconds
+          setTimeout(() => {
+            setFormSuccess(false);
+            setFormData({
+              firstName: "",
+              businessName: "",
+              email: "",
+              location: "",
+              message: ""
+            });
+          }, 5000);
+        })
+        .catch((error) => {
+          console.error('Failed to send email:', error);
+          setIsSubmitting(false);
+          // You could add error handling here
+          alert('Failed to send message. Please try again or contact us directly at tommy@snackhaus.com.au');
+        });
     } else {
       setFormErrors(errors);
     }
