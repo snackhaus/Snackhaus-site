@@ -832,6 +832,7 @@ Message: ${formData.message}
               <a href="#" className="hover:text-primary transition-colors">Contact</a>
             </div>
             <p className="mt-4">© {new Date().getFullYear()} Snackhaus. All rights reserved.</p>
+            <p className="text-sm text-white/60 mt-2">Snackhaus is a wholly owned subsidiary of Loopshift Ventures Pty Ltd (ABN 41 686 385 526).</p>
           </div>
         </div>
       </footer>
