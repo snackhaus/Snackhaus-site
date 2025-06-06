@@ -94,7 +94,25 @@ function App() {
     if (Object.keys(errors).length === 0) {
       setIsSubmitting(true);
       
-      // Simulate form submission
+      // Create email content
+      const emailBody = `
+New Snackhaus Cooler Request:
+
+Name: ${formData.firstName}
+Business: ${formData.businessName}
+Email: ${formData.email}
+Location: ${formData.location}
+Message: ${formData.message}
+      `.trim();
+      
+      // Create mailto link
+      const subject = encodeURIComponent("New Snackhaus Cooler Request");
+      const body = encodeURIComponent(emailBody);
+      const mailtoLink = `mailto:tommy@snackhaus.com.au?subject=${subject}&body=${body}`;
+      
+      // Open email client
+      window.location.href = mailtoLink;
+      
       setTimeout(() => {
         console.log("Form submitted:", formData);
         setIsSubmitting(false);
@@ -108,10 +126,10 @@ function App() {
             businessName: "",
             email: "",
             location: "",
-            spaceType: "",
+            message: ""
           });
         }, 5000);
-      }, 1500);
+      }, 1000);
     } else {
       setFormErrors(errors);
     }
