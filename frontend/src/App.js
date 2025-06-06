@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import "./App.css";
-import emailjs from '@emailjs/browser';
 
 // Import Hero Icons
 import { ArrowRightIcon, ArrowSmallDownIcon, CheckCircleIcon } from "@heroicons/react/24/solid";
