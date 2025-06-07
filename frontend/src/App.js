@@ -784,11 +784,13 @@ function App() {
         <div className="container-custom">
           <div className="grid md:grid-cols-3 gap-8 pb-6">
             <div>
-              <img 
-                src="https://iili.io/3ps6JMF.png" 
-                alt="Snackhaus Logo" 
-                className="h-32 md:h-40"
-              />
+              <div className="mb-4">
+                <img 
+                  src="https://iili.io/3ps6JMF.png" 
+                  alt="Snackhaus Logo" 
+                  className="h-32 md:h-40"
+                />
+              </div>
             </div>
             
             <div>
