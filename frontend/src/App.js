@@ -791,7 +791,7 @@ function App() {
               />
             </div>
             
-            <div className="ml-8 md:ml-0">
+            <div>
               <h4 className="text-white font-bold mb-4">Quick Links</h4>
               <ul className="space-y-2">
                 <li><a href="#how-it-works" className="text-white/70 hover:text-primary transition-colors">How It Works</a></li>
