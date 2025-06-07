@@ -783,11 +783,11 @@ function App() {
       <footer className="bg-secondary-dark pt-12 pb-6 border-t border-primary/10">
         <div className="container-custom">
           <div className="grid md:grid-cols-3 gap-8 pb-6">
-            <div>
+            <div className="flex justify-center md:justify-start">
               <img 
                 src="https://iili.io/3ps6JMF.png" 
                 alt="Snackhaus Logo" 
-                className="h-40 md:h-48"
+                className="h-32 md:h-40"
               />
             </div>
             
