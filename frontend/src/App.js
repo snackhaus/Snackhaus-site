@@ -360,7 +360,7 @@ function App() {
                 </div>
                 <h4 className="text-xl font-bold mb-3 text-secondary-dark">Earn Without Effort</h4>
                 <p className="text-gray-700 text-sm leading-relaxed">
-                  Get paid from snack sales and built-in digital advertising. No upfront cost. Just passive income from space you already have.
+                  Passive income from snack sales, brand activations, and digital ads. All handled for you.
                 </p>
               </div>
               
